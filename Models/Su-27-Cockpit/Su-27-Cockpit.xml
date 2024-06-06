@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>Su-27-Cockpit.ac</path>
+	<model>
+		<name>Instruments</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments.xml</path>
+	</model>
+	<model>
+		<name>Right Panels</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels.xml</path>
+	</model>
+	<model>
+		<name>Left Panels</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels.xml</path>
+		<offsets>
+			<x-m>0.00</x-m>
+			<y-m>0.02</y-m>
+			<z-m>0.00</z-m>
+			<roll-deg>1.5</roll-deg>
+		</offsets>
+	</model>
+	<model>
+		<name>Stick</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Stick/stick.xml</path>
+		<offsets>
+			<x-m>4.5</x-m>
+			<y-m>0.01</y-m>
+			<z-m>0.5</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+		<!--Stick animations defined near the EOF-->
+	</model>
+	<model>
+		<name>pedals</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/divers/pedals.xml</path>
+		<offsets>
+			<x-m>4.2</x-m>
+			<y-m>0.01</y-m>
+			<z-m>0.5</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	<animation>
+		<type>rotate</type>
+		<object-name>Stick</object-name>
+		<property>controls/flight/elevator</property>
+		<factor>13</factor>
+		<center>
+			<x-m>4.400</x-m>
+			<y-m>0.00</y-m>
+			<z-m>0.640</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>-1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>Stick</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>13</factor>
+		<center>
+			<x-m>4.400</x-m>
+			<y-m>0.000</y-m>
+			<z-m>0.640</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
+</PropertyList>

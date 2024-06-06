@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>hud.ac</path>
+	<effect>
+		<object-name>HUD_Screen</object-name>
+		<inherits-from>Aircraft/Su-27/Models/Effects/hud</inherits-from>
+	</effect>
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>glass</object-name>
+	</effect>
+	<animation>
+		<type>knob</type>
+		<object-name>knob</object-name>
+		<property>su-27/instrumentation/HUD/brightness</property>
+		<factor>30</factor>
+		<center>
+			<x-m>0.199305</x-m>
+			<y-m>-0.039807</y-m>
+			<z-m>0.102748</z-m>
+		</center>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0.3</z>
+		</axis>
+		<action>
+			<binding>
+				<command>property-adjust</command>
+				<property>su-27/instrumentation/HUD/brightness</property>
+				<factor>0.1</factor>
+				<min>0</min>
+				<max>1</max>
+				<wrap>false</wrap>
+			</binding>
+		</action>
+	</animation>
+</PropertyList>

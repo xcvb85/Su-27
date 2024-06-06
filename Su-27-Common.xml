@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<sim include="Systems/views.xml">
+		<author></author>
+		<expected-aircraft-dir-name>Su-27</expected-aircraft-dir-name>
+		<flight-model>jsb</flight-model>
+		<aero>Su-27</aero>
+		<sound><path>Aircraft/Su-27/Sounds/Sounds.xml</path></sound>
+		<instrumentation>
+			<path>Systems/instrumentation.xml</path>
+		</instrumentation>
+	</sim>
+	<instrumentation>
+		<marker-beacon>
+			<serviceable type="bool">false</serviceable>
+		</marker-beacon>
+		<radar-altimeter>
+			<serviceable type="bool">true</serviceable>
+		</radar-altimeter>
+	</instrumentation>
+	<input>
+		<keyboard include="Systems/keyboard.xml" />
+	</input>
+	<payload include="Systems/payload.xml"/>
+	<controls>
+		<ejected>0</ejected>
+		<gear>
+			<brake-parking>1</brake-parking>
+		</gear>
+	</controls>
+	<engines>
+		<engine n="0">
+			<running>true</running>
+			<reverser-pos-norm type="double">0</reverser-pos-norm>
+		</engine>
+		<engine n="1">
+			<running>true</running>
+			<reverser-pos-norm type="double">0</reverser-pos-norm>
+		</engine>
+	</engines>
+	<nasal>
+		<libraries>
+			<file>Aircraft/Su-27/Nasal/libraries.nas</file>
+		</libraries>
+		<hud>
+			<file>Aircraft/Su-27/Nasal/HUD/hud_radar.nas</file>
+			<file>Aircraft/Su-27/Nasal/HUD/hud.nas</file>
+		</hud>
+		<vector>
+			<file>Aircraft/Su-27/Nasal/weapons/vector.nas</file>
+		</vector>
+		<notifications>
+			<file>Aircraft/Su-27/Nasal/weapons/ArmamentNotification.nas</file>
+			<file>Aircraft/Su-27/Nasal/weapons/GeoBridgedTransmitter.nas</file>
+		</notifications>
+		<radardist>
+			<file>Aircraft/Instruments-3d/radardist/radardist.nas</file>
+		</radardist>
+		<rcs>
+			<file>Aircraft/Su-27/Nasal/radar/rcs.nas</file>
+			<file>Aircraft/Su-27/Nasal/radar/rcs_mand.nas</file>
+		</rcs>
+		<radar_system>
+			<file>Aircraft/Su-27/Nasal/radar/radar-system-database.nas</file>
+			<file>Aircraft/Su-27/Nasal/radar/radar-system.nas</file>
+			<file>Aircraft/Su-27/Nasal/radar/apg-68.nas</file>
+		</radar_system>
+		<rwr>
+			<file>Aircraft/Su-27/Nasal/radar/rwr.nas</file>
+		</rwr>
+		<damage>
+			<file>Aircraft/Su-27/Nasal/weapons/damage.nas</file>
+		</damage>
+		<ai>
+			<file>Aircraft/Su-27/Nasal/weapons/AI_list.nas</file>
+		</ai>
+		<view>
+			<file>Aircraft/Su-27/Nasal/weapons/MissileView.nas</file>
+		</view>
+		<armament>
+			<file>Aircraft/Su-27/Nasal/weapons/missile-code.nas</file><!-- must be before station-manager -->
+		</armament>
+		<stations>
+			<file>Aircraft/Su-27/Nasal/weapons/station-manager.nas</file><!-- must be before fire-control and pylons -->
+		</stations>
+		<fc>
+			<file>Aircraft/Su-27/Nasal/weapons/fire-control.nas</file><!-- must be before pylons -->
+		</fc>
+		<pylons>
+			<file>Aircraft/Su-27/Nasal/weapons/pylons.nas</file>
+		</pylons>
+	</nasal>
+</PropertyList>

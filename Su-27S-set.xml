@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList include="Su-27-Common.xml">
+	<sim>
+		<description>Sukhoi Su-27S</description>
+		<variant-id type="int">1</variant-id>
+		<long-description>The Su-27S is the first slightly improved version of the Su-27 with basic A/G support.</long-description>
+		<status>beta</status>
+		<rating>
+			<FDM type="int">3</FDM>
+			<systems type="int">1</systems>
+			<cockpit type="int">2</cockpit>
+			<model type="int">4</model>
+		</rating>
+		<menubar include="gui/Menubar-Su-27.xml"/>
+		<model>
+			<path>Aircraft/Su-27/Models/Su-27-Model.xml</path>
+		</model>
+	</sim>
+</PropertyList>

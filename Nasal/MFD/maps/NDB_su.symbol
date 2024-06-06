@@ -1,0 +1,30 @@
+# See: http://wiki.flightgear.org/MapStructure
+# Class things:
+var name = 'NDB_su';
+var parents = [DotSym];
+var __self__ = caller(0)[0];
+DotSym.makeinstance( name, __self__ );
+
+var element_type = "group"; # we want a group, becomes "me.element"
+var icon_apt = nil;
+var text_apt = nil;
+var idx = 0;
+
+# add the draw routine from airports-nd.draw here
+var init = func {
+	var icon_apt = me.element.createChild("path", name ~ " icon" )
+		.moveTo(  0,-20)
+		.lineTo(-12, 20)
+		.lineTo( 12, 20)
+		.close()
+		.setColor(me.layer.style.color_default)
+		.setStrokeLineWidth(me.layer.style.line_width);
+
+	me.text = me.newText(sprintf("P%d", idx), me.style.font_color)
+			.setTranslation(20, 20);
+	idx+=1;
+
+	# FIXME: this applies scale to the whole group, better do this separately for each element?
+	me.element.setScale(me.layer.style.scale_factor);
+};
+var draw = func;

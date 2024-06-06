@@ -1,0 +1,68 @@
+<PropertyList>
+
+ <name>ASI</name>
+ <path>asi.ac</path>
+    <effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <object-name>glass</object-name>
+    </effect>
+
+  <animation>
+  <type>rotate</type>
+  <object-name>ASI.Indicator.needle</object-name>
+  <property>instrumentation/airspeed-indicator/indicated-speed-kt</property>
+  <interpolation>
+   <entry><ind>0</ind><dep>0</dep></entry>
+   <entry><ind>54</ind><dep>11</dep></entry>
+   <entry><ind>108</ind><dep>42</dep></entry>
+   <entry><ind>162</ind><dep>75</dep></entry>
+   <entry><ind>216</ind><dep>109</dep></entry>
+   <entry><ind>270</ind><dep>141</dep></entry>
+   <entry><ind>324</ind><dep>168</dep></entry>
+   <entry><ind>378</ind><dep>191</dep></entry>
+   <entry><ind>432</ind><dep>210</dep></entry>
+   <entry><ind>486</ind><dep>231</dep></entry>
+   <entry><ind>540</ind><dep>248</dep></entry>
+   <entry><ind>594</ind><dep>264</dep></entry>
+   <entry><ind>648</ind><dep>278</dep></entry>
+   <entry><ind>756</ind><dep>308</dep></entry>
+   <entry><ind>864</ind><dep>332</dep></entry>
+
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>rotate</type>
+  <object-name>ASI.Indicator.mach-scale</object-name>
+  <property>su-27/instrumentation/ASI/airspeed-kmh</property>
+  <interpolation>
+   <entry><ind>0</ind><dep>0</dep></entry>
+   <entry><ind>100</ind><dep>11</dep></entry>
+   <entry><ind>200</ind><dep>42</dep></entry>
+   <entry><ind>300</ind><dep>75</dep></entry>
+   <entry><ind>400</ind><dep>109</dep></entry>
+   <entry><ind>500</ind><dep>141</dep></entry>
+   <entry><ind>600</ind><dep>168</dep></entry>
+   <entry><ind>700</ind><dep>191</dep></entry>
+   <entry><ind>800</ind><dep>210</dep></entry>
+   <entry><ind>900</ind><dep>231</dep></entry>
+   <entry><ind>1000</ind><dep>248</dep></entry>
+   <entry><ind>1100</ind><dep>264</dep></entry>
+   <entry><ind>1200</ind><dep>278</dep></entry>
+   <entry><ind>1400</ind><dep>308</dep></entry>
+   <entry><ind>1600</ind><dep>332</dep></entry>
+
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+</PropertyList>

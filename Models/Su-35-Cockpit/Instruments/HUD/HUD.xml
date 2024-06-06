@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>hud.ac</path>
+	<effect>
+		<object-name>HUD_Screen</object-name>
+		<inherits-from>Aircraft/Su-27/Models/Effects/hud</inherits-from>
+	</effect>
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>glass</object-name>
+	</effect>
+</PropertyList>

@@ -1,0 +1,45 @@
+<PropertyList>
+	<path>Su-35-Cockpit.ac</path>
+	<model>
+		<name>hud</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/HUD/HUD.xml</path>
+		<offsets>
+			<x-m> 4.700</x-m>
+			<y-m> 0.000</y-m>
+			<z-m> 1.260</z-m>
+			<pitch-deg>-10</pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<name>mfd1</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/MFD/mfd1.xml</path>
+		<offsets>
+			<x-m> 4.628</x-m>
+			<y-m>-0.174</y-m>
+			<z-m> 1.000</z-m>
+			<pitch-deg>-12</pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<name>mfd2</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/MFD/mfd2.xml</path>
+		<offsets>
+			<x-m> 4.628</x-m>
+			<y-m> 0.174</y-m>
+			<z-m> 1.000</z-m>
+			<pitch-deg>-12</pitch-deg>
+		</offsets>
+	</model>
+<!--
+	<model>
+		<name>stick</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/Stick/stick.xml</path>
+		<offsets>
+			<x-m> 4.900</x-m>
+			<y-m> 0.000</y-m>
+			<z-m>-0.300</z-m>
+			<pitch-deg>-14</pitch-deg>
+		</offsets>
+	</model>
+-->
+</PropertyList>
