@@ -66,7 +66,7 @@ pylon07 = stations.Pylon.new("Left intake",        6, [0.0, -1.7,-1.0], pylon07s
 pylon08 = stations.Pylon.new("Left wing inboard",  7, [0.0,  2.7, 0.0], pylon08set,  7, props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[7]",1),props.globals.getNode("fdm/jsbsim/inertia/pointmass-dragarea-sqft[7]",1),func{return getprop("payload/armament/fire-control/serviceable") and 1;},func{return 1;});
 pylon09 = stations.Pylon.new("Left wing outboard", 8, [0.0, -2.7, 0.0], pylon09set,  8, props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[8]",1),props.globals.getNode("fdm/jsbsim/inertia/pointmass-dragarea-sqft[8]",1),func{return getprop("payload/armament/fire-control/serviceable") and 1;},func{return 1;});
 pylon10 = stations.Pylon.new("Left wingtip",       9, [3.0,  0.0, 0.0], pylon10set,  9, props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[9]",1),props.globals.getNode("fdm/jsbsim/inertia/pointmass-dragarea-sqft[9]",1),func{return getprop("payload/armament/fire-control/serviceable") and 1;},func{return 1;});
-pylonI = stations.InternalStation.new("Internal gun mount",   3, [pylonSets.mm30], props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[3]", 1));
+pylonI = stations.InternalStation.new("Internal gun mount",  10, [pylonSets.mm30], props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[10]", 1));
 
 pylons = [pylon01, pylon02, pylon03, pylon04, pylon05, pylon06, pylon07, pylon08, pylon09, pylon10, pylonI];
 fcs = fc.FireControl.new(pylons, [0, 9, 1, 8, 2, 7, 3, 6, 4, 5], ["30mm Cannon", "R-73", "R-27R1", "R-27T1"]);
