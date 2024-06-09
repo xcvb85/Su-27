@@ -10,7 +10,7 @@ var canvas_skKIS = {
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-35/Nasal/MFD/softkeys.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/softkeys.svg", {'font-mapper': font_mapper});
 
 		canvasGroup.getElementById("SKT").hide();
 		canvasGroup.getElementById("SKL").hide();

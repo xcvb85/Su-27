@@ -24,7 +24,7 @@
         <pylon-offset type="int">0</pylon-offset>
         <pylon-stations>controls/armament</pylon-stations>
         <station-name type="string">station</station-name>
-        <models type="string">Aircraft/Su-35/Models/Stores/</models>
+        <models type="string">Aircraft/Su-27/Models/Stores/</models>
         <msg type="bool">false</msg>
         <tacview type="bool">false</tacview>
         <damage type="bool">true</damage>

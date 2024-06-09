@@ -10,7 +10,7 @@ var canvas_pfd = {
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-35/Nasal/MFD/pfd.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/pfd.svg", {'font-mapper': font_mapper});
 		var svg_keys = ["horizon", "aircraft", "asiNeedle", "compass",
 						"lb0", "lb3", "lb6", "lb9", "lb12", "lb15", "lb18",
 						"lb21", "lb24", "lb27", "lb30", "lb33",
