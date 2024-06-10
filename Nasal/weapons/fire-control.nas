@@ -247,6 +247,7 @@ var FireControl = {
 			}
 		}
 		screen.log.write("Selected "~me.selectedType, 0.5, 0.5, 1);
+		setprop("payload/armament/selected", me.selectedType);
 	},
 
 	cycleLoadedWeapon: func {
@@ -275,6 +276,7 @@ var FireControl = {
 			if (me.wp != nil) {			
 				printfDebug("FC: Selected next weapon type: %s on pylon %d position %d",me.selectedType,me.selected[0],me.selected[1]);
 				screen.log.write("Selected "~me.selectedType, 0.5, 0.5, 1);
+				setprop("payload/armament/selected", me.selectedType);
 				return;
 			}
 			me.selTypeIndex += 1;
@@ -283,6 +285,7 @@ var FireControl = {
 		me.selectedAdd = nil;
 		me.selectedType = nil;
 		screen.log.write("Selected nothing", 0.5, 0.5, 1);
+		setprop("payload/armament/selected", "");
 		if (me.changeListener != nil) me.changeListener();
 	},
 

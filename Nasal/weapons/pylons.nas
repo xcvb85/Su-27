@@ -69,7 +69,7 @@ pylon10 = stations.Pylon.new("Left wingtip",       9, [3.0,  0.0, 0.0], pylon10s
 pylonI = stations.InternalStation.new("Internal gun mount",  10, [pylonSets.mm30], props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[10]", 1));
 
 pylons = [pylon01, pylon02, pylon03, pylon04, pylon05, pylon06, pylon07, pylon08, pylon09, pylon10, pylonI];
-fcs = fc.FireControl.new(pylons, [10, 0, 9, 1, 8, 2, 7, 3, 6, 4, 5], ["30mm Cannon", "R-73", "R-27R1", "R-27T1"]);
+fcs = fc.FireControl.new(pylons, [10, 0, 9, 1, 8, 2, 7, 3, 6, 4, 5], ["30mm Cannon", "R-73", "R-27T1", "R-27R1"]);
 
 var selectedWeapon = {};
 var bore_loop = func {
