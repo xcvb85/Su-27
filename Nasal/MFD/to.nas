@@ -16,7 +16,7 @@ var canvas_to = {
 				return "LiberationFonts/LiberationSans-Regular.ttf";
 			}
 		};
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-35/Nasal/MFD/to.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/to.svg", {'font-mapper': font_mapper});
 
 		var ctrl_ns = canvas.Map.Controller.get("Aircraft position");
 		var source = ctrl_ns.SOURCES["to-map"];

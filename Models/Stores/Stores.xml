@@ -1,3 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
+    <model>
+        <name>R-73 Missile 1</name>
+        <path>Aircraft/Su-27/Models/Stores/R-73/R-73.ac</path>
+        <offsets>
+            <x-m> 15.400</x-m>
+            <y-m> -7.555</y-m>
+            <z-m>  0.147</z-m>
+        </offsets>
+    </model>
+    <animation>
+        <object-name>R-73 Missile 1</object-name>
+        <type>select</type>
+        <condition>
+            <and>
+                <equals>
+                    <property>payload/armament/station/id-0-type</property>
+                    <value>R-73</value>
+                </equals>
+                <equals>
+                    <property>payload/armament/station/id-0-count</property>
+                    <value>1</value>
+                </equals>
+            </and>
+        </condition>
+    </animation>
+    <model>
+        <name>R-73 Missile 2</name>
+        <path>Aircraft/Su-27/Models/Stores/R-73/R-73.ac</path>
+        <offsets>
+            <x-m> 15.570</x-m>
+            <y-m> -6.470</y-m>
+            <z-m>  0.015</z-m>
+        </offsets>
+    </model>
+    <animation>
+        <object-name>R-73 Missile 2</object-name>
+        <type>select</type>
+        <condition>
+            <and>
+                <equals>
+                    <property>payload/armament/station/id-1-type</property>
+                    <value>R-73</value>
+                </equals>
+                <equals>
+                    <property>payload/armament/station/id-1-count</property>
+                    <value>1</value>
+                </equals>
+            </and>
+        </condition>
+    </animation>
+    <model>
+        <name>R-73 Missile 3</name>
+        <path>Aircraft/Su-27/Models/Stores/R-73/R-73.ac</path>
+        <offsets>
+            <x-m> 14.356</x-m>
+            <y-m> -4.849</y-m>
+            <z-m> -0.188</z-m>
+        </offsets>
+    </model>
+    <animation>
+        <object-name>R-73 Missile 3</object-name>
+        <type>select</type>
+        <condition>
+            <and>
+                <equals>
+                    <property>payload/armament/station/id-2-type</property>
+                    <value>R-73</value>
+                </equals>
+                <equals>
+                    <property>payload/armament/station/id-2-count</property>
+                    <value>1</value>
+                </equals>
+            </and>
+        </condition>
+    </animation>
+    <model>
+        <name>R-73 Missile 4</name>
+        <path>Aircraft/Su-27/Models/Stores/R-73/R-73.ac</path>
+        <offsets>
+            <x-m> 14.356</x-m>
+            <y-m>  4.849</y-m>
+            <z-m> -0.188</z-m>
+        </offsets>
+    </model>
+    <animation>
+        <object-name>R-73 Missile 4</object-name>
+        <type>select</type>
+        <condition>
+            <and>
+                <equals>
+                    <property>payload/armament/station/id-7-type</property>
+                    <value>R-73</value>
+                </equals>
+                <equals>
+                    <property>payload/armament/station/id-7-count</property>
+                    <value>1</value>
+                </equals>
+            </and>
+        </condition>
+    </animation>
+    <model>
+        <name>R-73 Missile 5</name>
+        <path>Aircraft/Su-27/Models/Stores/R-73/R-73.ac</path>
+        <offsets>
+            <x-m> 15.570</x-m>
+            <y-m>  6.470</y-m>
+            <z-m>  0.015</z-m>
+        </offsets>
+    </model>
+    <animation>
+        <object-name>R-73 Missile 5</object-name>
+        <type>select</type>
+        <condition>
+            <and>
+                <equals>
+                    <property>payload/armament/station/id-8-type</property>
+                    <value>R-73</value>
+                </equals>
+                <equals>
+                    <property>payload/armament/station/id-8-count</property>
+                    <value>1</value>
+                </equals>
+            </and>
+        </condition>
+    </animation>
+    <model>
+        <name>R-73 Missile 6</name>
+        <path>Aircraft/Su-27/Models/Stores/R-73/R-73.ac</path>
+        <offsets>
+            <x-m> 15.400</x-m>
+            <y-m>  7.555</y-m>
+            <z-m>  0.147</z-m>
+        </offsets>
+    </model>
+    <animation>
+        <object-name>R-73 Missile 6</object-name>
+        <type>select</type>
+        <condition>
+            <and>
+                <equals>
+                    <property>payload/armament/station/id-9-type</property>
+                    <value>R-73</value>
+                </equals>
+                <equals>
+                    <property>payload/armament/station/id-9-count</property>
+                    <value>1</value>
+                </equals>
+            </and>
+        </condition>
+    </animation>
 </PropertyList>

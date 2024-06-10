@@ -16,7 +16,7 @@ var canvas_map = {
 				return "LiberationFonts/LiberationSans-Regular.ttf";
 			}
 		};
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-35/Nasal/MFD/map.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/map.svg", {'font-mapper': font_mapper});
 
 		var svg_keys = ["compass1", "compass2",
 						"lb0", "lb3", "lb6", "lb9",

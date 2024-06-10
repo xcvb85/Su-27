@@ -1,325 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <PropertyList>
-  <path>Pylons-board.ac</path>
-<!--
+	<path>Pylons-board.ac</path>
+	<!--
   ***** Animations for Ready state yellow leds*****
 -->
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.08</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[7]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  
-	
+		<type>select</type>
+		<object-name>ready.01</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-0-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.06</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[5]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  
-	
+		<type>select</type>
+		<object-name>ready.02</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-1-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.04</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[3]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  
-	
+		<type>select</type>
+		<object-name>ready.03</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-2-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.10</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[9]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  
-  
+		<type>select</type>
+		<object-name>ready.04</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-3-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.02</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[1]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>    
-	
+		<type>select</type>
+		<object-name>ready.05</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-4-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.01</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[0]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  
-	
+		<type>select</type>
+		<object-name>ready.06</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-5-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.09</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[8]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  
-	
+		<type>select</type>
+		<object-name>ready.07</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-6-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.03</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[2]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  	
-	
+		<type>select</type>
+		<object-name>ready.08</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-7-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.05</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[4]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>    
-	
+		<type>select</type>
+		<object-name>ready.09</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-8-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-ready.07</object-name>
-	 <condition>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[6]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation>  	
-	
-<!--
-  ***** Animations for Selected weapon state greeen leds*****
--->	
-	
+		<type>select</type>
+		<object-name>ready.10</object-name>
+		<condition>
+			<greater-than>
+				<property>payload/armament/station/id-9-count</property>
+				<value>0</value>
+			</greater-than>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.01</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[0]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>	   
-	 </condition>
-	</animation>  	
-
+		<type>select</type>
+		<object-name>selected.01</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-0-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-0-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.02</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[1]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[1]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>	   
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.02</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-1-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-1-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.03</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[2]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[2]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.03</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-2-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-2-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.04</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[3]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[3]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.04</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-3-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-3-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.05</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[4]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[4]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>	   
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.05</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-4-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-4-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.06</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[5]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[5]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.06</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-5-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-5-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.07</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[6]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[6]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.07</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-6-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-6-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.08</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[7]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[7]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.08</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-7-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-7-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.09</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[8]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[8]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
+		<type>select</type>
+		<object-name>selected.09</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-8-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-8-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 	<animation>
-	 <type>select</type> 
-	 <object-name>Pylon-Selected.10</object-name>
-	 <condition>
-	   <equals>
-	   <property>controls/armament/selected-weapon</property>
-	   <property>sim/weight[9]/selected</property>
-	   </equals>
-		 <not>
-	   <equals>
-	   <property>fdm/jsbsim/inertia/pointmass-weight-lbs[9]</property>
-	   <value>0</value>
-	   </equals>
-		 </not>
-	 </condition>
-	</animation> 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+		<type>select</type>
+		<object-name>selected.10</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>payload/armament/station/id-9-count</property>
+					<value>0</value>
+				</greater-than>
+				<equals>
+					<property>payload/armament/station/id-9-type</property>
+					<property>payload/armament/selected</property>
+				</equals>
+			</and>
+		</condition>
+	</animation>
 </PropertyList>

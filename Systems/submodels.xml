@@ -13,8 +13,8 @@
     <!-- 0 -->
     <submodel>
         <name>flaresL</name>
-        <model>Aircraft/Su-35/Models/Stores/flare.xml</model>
-        <trigger>fdm/jsbsim/fcs/boz-1</trigger>
+        <model>Aircraft/Su-27/Models/Stores/flare.xml</model>
+        <trigger>ai/submodels/submodel[0]/flare-release</trigger>        <!-- ai/submodels/submodel[0]/flare-release -->
         <speed>700.0</speed>        <!-- ft/sec -->
         <repeat>true</repeat>
         <delay>0.25</delay>
@@ -36,8 +36,8 @@
     <!-- 1 -->
     <submodel>
         <name>flaresR</name>
-        <model>Aircraft/Su-35/Models/Stores/flare.xml</model>
-        <trigger>fdm/jsbsim/fcs/boz-2</trigger>
+        <model>Aircraft/Su-27/Models/Stores/flare.xml</model>
+        <trigger>ai/submodels/submodel[0]/flare-release</trigger>        <!-- ai/submodels/submodel[0]/flare-release -->
         <speed>700.0</speed>        <!-- ft/sec -->
         <repeat>true</repeat>
         <delay>0.25</delay>
@@ -59,8 +59,8 @@
     <!-- 2 -->
     <submodel>
         <name>chaffL</name>
-        <model>Aircraft/MiG-21bis/Models/Effects/Chaff/chaff.xml</model>
-        <trigger>fdm/jsbsim/fcs/boz-1</trigger>
+        <model>Aircraft/Su-27/Models/Stores/chaff.xml</model>
+        <trigger>ai/submodels/submodel[0]/flare-release</trigger>        <!-- ai/submodels/submodel[0]/flare-release -->
         <speed>0.0</speed>        <!-- ft/sec -->
         <repeat>true</repeat>
         <delay>0.25</delay>
@@ -83,8 +83,8 @@
     <!-- 3 -->
     <submodel>
         <name>chaffR</name>
-        <model>Aircraft/MiG-21bis/Models/Effects/Chaff/chaff.xml</model>
-        <trigger>fdm/jsbsim/fcs/boz-2</trigger>
+        <model>Aircraft/Su-27/Models/Stores/chaff.xml</model>
+        <trigger>ai/submodels/submodel[0]/flare-release</trigger>        <!-- ai/submodels/submodel[0]/flare-release -->
         <speed>0.0</speed>
         <repeat>true</repeat>
         <delay>0.25</delay>
@@ -107,7 +107,7 @@
     <!-- 4 -->
     <submodel>
         <name>GSh-301 Tracer</name>
-        <model>Aircraft/Su-35/Models/Stores/Tracer.xml</model>
+        <model>Aircraft/Su-27/Models/Stores/Tracer.xml</model>
         <trigger>fdm/jsbsim/fcs/guntrigger</trigger>
         <speed>2350</speed>
         <repeat>true</repeat>
@@ -127,7 +127,7 @@
     <!-- 5 -->
     <submodel>
         <name>GSh-301</name>
-        <model>Aircraft/Su-35/Models/Stores/Null.ac</model>
+        <model>Aircraft/Su-27/Models/Stores/Null.ac</model>
         <trigger>fdm/jsbsim/fcs/guntrigger</trigger>
         <speed>2350</speed>
         <repeat>true</repeat>
