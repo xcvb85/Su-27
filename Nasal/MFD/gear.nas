@@ -10,7 +10,7 @@ var canvas_gear = {
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-35/Nasal/MFD/gear.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/gear.svg", {'font-mapper': font_mapper});
 
 		m.group = canvasGroup;
 		return m;
