@@ -47,9 +47,9 @@
 
   <contact type="BOGEY" name="NOSE_GEAR">
    <location unit="M">
-     <x>  7.8 </x>
-     <y>  0.0 </y>
-     <z> -2.3 </z>
+     <x>  7.80 </x>
+     <y>  0.00 </y>
+     <z> -2.30 </z>
    </location>
    <static_friction>  0.9 </static_friction>
    <dynamic_friction> 0.6 </dynamic_friction>
@@ -63,9 +63,9 @@
 
   <contact type="BOGEY" name="LEFT_GEAR">
    <location unit="M">
-     <x> 13.7 </x>
-     <y> -2.2 </y>
-     <z> -2.5 </z>
+     <x> 13.70 </x>
+     <y> -2.20 </y>
+     <z> -2.52 </z>
    </location>
    <static_friction>  0.9 </static_friction>
    <dynamic_friction> 0.6 </dynamic_friction>
