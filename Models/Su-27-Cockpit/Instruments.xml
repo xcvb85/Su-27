@@ -266,7 +266,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/PNP-72-12/PNP-72-12.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HSI/HSI.xml</path>
 		<offsets>
 			<x-m>4.3116</x-m>
 			<y-m>-0.08</y-m>

@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+
+<!-- Прибор Навигационный Плановый - ПНП-72-12-->
+<!-- 2011, Сергей "Mercenary_Mercury" Салов -->
+
+<PropertyList>
+
+ <path>PNP-72-12.ac</path>
+    <effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <object-name>Glass</object-name>
+    </effect>
+
+    <animation>
+        <object-name>DmeFlag</object-name>
+        <type>select</type>
+        <condition>
+            <not>
+            <property>instrumentation/nav[0]/dme-in-range</property>
+            </not>
+        </condition>
+    </animation>
+    <animation>
+  <type>rotate</type>
+  <object-name>DmeOnes</object-name>
+<property>instrumentation/nav[0]/nav-distance</property>
+  <factor>0.036</factor>
+  <center>
+   <x-m>-0.009</x-m>
+   <y-m> 0.000</y-m>
+   <z-m> 0.045</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+<animation>
+  <type>rotate</type>
+  <object-name>DmeTens</object-name>
+<property>instrumentation/nav[0]/nav-distance</property>
+  <expression>
+    <table>
+      <mod>
+        <abs><property>instrumentation/nav[0]/nav-distance</property></abs>
+        <value>100000</value>
+      </mod>
+      <entry><ind>	    0</ind>	<dep>	0</dep></entry>
+      <entry><ind>	 9900</ind>	<dep>	0</dep></entry>
+      <entry><ind>	10000</ind>	<dep>	36</dep></entry>
+      <entry><ind>	19900</ind>	<dep>	36</dep></entry>
+      <entry><ind>	20000</ind>	<dep>	72</dep></entry>
+      <entry><ind>	29900</ind>	<dep>	72</dep></entry>
+      <entry><ind>	30000</ind>	<dep>	108</dep></entry>
+      <entry><ind>	39900</ind>	<dep>	108</dep></entry>
+      <entry><ind>	40000</ind>	<dep>	144</dep></entry>
+      <entry><ind>	49900</ind>	<dep>	144</dep></entry>
+      <entry><ind>	50000</ind>	<dep>	180</dep></entry>
+      <entry><ind>	59900</ind>	<dep>	180</dep></entry>
+      <entry><ind>	60000</ind>	<dep>	216</dep></entry>
+      <entry><ind>	69900</ind>	<dep>	216</dep></entry>
+      <entry><ind>	70000</ind>	<dep>	252</dep></entry>
+      <entry><ind>	79900</ind>	<dep>	252</dep></entry>
+      <entry><ind>	80000</ind>	<dep>	288</dep></entry>
+      <entry><ind>	89900</ind>	<dep>	288</dep></entry>
+      <entry><ind>	90000</ind>	<dep>	324</dep></entry>
+      <entry><ind>	99900</ind>	<dep>	324</dep></entry>
+      <entry><ind>	99990</ind>	<dep>	359.9</dep></entry>
+    </table>
+  </expression>
+  <center>
+   <x-m>-0.009</x-m>
+   <y-m> 0.000</y-m>
+   <z-m> 0.045</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+<animation>
+  <type>rotate</type>
+  <object-name>DmeHundreds</object-name>
+  <expression>
+    <table>
+      <mod>
+        <abs><property>instrumentation/nav[0]/nav-distance</property></abs>
+        <value>1000000</value>
+      </mod>
+      <entry><ind>	    0</ind>	<dep>	0</dep></entry>
+      <entry><ind>	 99000</ind>	<dep>	0</dep></entry>
+      <entry><ind>	100000</ind>	<dep>	36</dep></entry>
+      <entry><ind>	199000</ind>	<dep>	36</dep></entry>
+      <entry><ind>	200000</ind>	<dep>	72</dep></entry>
+      <entry><ind>	299000</ind>	<dep>	72</dep></entry>
+      <entry><ind>	300000</ind>	<dep>	108</dep></entry>
+      <entry><ind>	399000</ind>	<dep>	108</dep></entry>
+      <entry><ind>	400000</ind>	<dep>	144</dep></entry>
+      <entry><ind>	499000</ind>	<dep>	144</dep></entry>
+      <entry><ind>	500000</ind>	<dep>	180</dep></entry>
+      <entry><ind>	599000</ind>	<dep>	180</dep></entry>
+      <entry><ind>	600000</ind>	<dep>	216</dep></entry>
+      <entry><ind>	699000</ind>	<dep>	216</dep></entry>
+      <entry><ind>	700000</ind>	<dep>	252</dep></entry>
+      <entry><ind>	799000</ind>	<dep>	252</dep></entry>
+      <entry><ind>	800000</ind>	<dep>	288</dep></entry>
+      <entry><ind>	899000</ind>	<dep>	288</dep></entry>
+      <entry><ind>	900000</ind>	<dep>	324</dep></entry>
+      <entry><ind>	999000</ind>	<dep>	324</dep></entry>
+      <entry><ind>	999900</ind>	<dep>	359.9</dep></entry>
+    </table>
+  </expression>
+  <center>
+   <x-m>-0.009</x-m>
+   <y-m> 0.000</y-m>
+   <z-m> 0.045</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>CrsOnes</object-name>
+		<property>instrumentation/nav[0]/radials/selected-deg</property>
+  <factor>36</factor>
+  <center>
+   <x-m>-0.009</x-m>
+   <y-m> 0.000</y-m>
+   <z-m> 0.045</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+<animation>
+  <type>rotate</type>
+  <object-name>CrsTens</object-name>
+<property>instrumentation/nav[0]/nav-distance</property>
+  <expression>
+    <table>
+      <mod>
+		<property>instrumentation/nav[0]/radials/selected-deg</property>
+        <value>100</value>
+      </mod>
+      <entry><ind>	    0</ind>	<dep>	0</dep></entry>
+      <entry><ind>	 9.9</ind>	<dep>	0</dep></entry>
+      <entry><ind>	10.0</ind>	<dep>	36</dep></entry>
+      <entry><ind>	19.9</ind>	<dep>	36</dep></entry>
+      <entry><ind>	20.0</ind>	<dep>	72</dep></entry>
+      <entry><ind>	29.9</ind>	<dep>	72</dep></entry>
+      <entry><ind>	30.0</ind>	<dep>	108</dep></entry>
+      <entry><ind>	39.9</ind>	<dep>	108</dep></entry>
+      <entry><ind>	40.0</ind>	<dep>	144</dep></entry>
+      <entry><ind>	49.9</ind>	<dep>	144</dep></entry>
+      <entry><ind>	50.0</ind>	<dep>	180</dep></entry>
+      <entry><ind>	59.9</ind>	<dep>	180</dep></entry>
+      <entry><ind>	60.0</ind>	<dep>	216</dep></entry>
+      <entry><ind>	69.9</ind>	<dep>	216</dep></entry>
+      <entry><ind>	70.0</ind>	<dep>	252</dep></entry>
+      <entry><ind>	79.9</ind>	<dep>	252</dep></entry>
+      <entry><ind>	80.0</ind>	<dep>	288</dep></entry>
+      <entry><ind>	89.9</ind>	<dep>	288</dep></entry>
+      <entry><ind>	90.0</ind>	<dep>	324</dep></entry>
+      <entry><ind>	99.9</ind>	<dep>	324</dep></entry>
+      <entry><ind>	99.9</ind>	<dep>	359.9</dep></entry>
+    </table>
+  </expression>
+  <center>
+   <x-m>-0.009</x-m>
+   <y-m> 0.000</y-m>
+   <z-m> 0.045</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+<animation>
+  <type>rotate</type>
+  <object-name>CrsHundreds</object-name>
+  <expression>
+    <table>
+      <mod>
+		<property>instrumentation/nav[0]/radials/selected-deg</property>
+        <value>1000</value>
+      </mod>
+      <entry><ind>	    0</ind>	<dep>	0</dep></entry>
+      <entry><ind>	 99</ind>	<dep>	0</dep></entry>
+      <entry><ind>	100</ind>	<dep>	36</dep></entry>
+      <entry><ind>	199</ind>	<dep>	36</dep></entry>
+      <entry><ind>	200</ind>	<dep>	72</dep></entry>
+      <entry><ind>	299</ind>	<dep>	72</dep></entry>
+      <entry><ind>	300</ind>	<dep>	108</dep></entry>
+      <entry><ind>	399</ind>	<dep>	108</dep></entry>
+      <entry><ind>	400</ind>	<dep>	144</dep></entry>
+      <entry><ind>	499</ind>	<dep>	144</dep></entry>
+      <entry><ind>	500</ind>	<dep>	180</dep></entry>
+      <entry><ind>	599</ind>	<dep>	180</dep></entry>
+      <entry><ind>	600</ind>	<dep>	216</dep></entry>
+      <entry><ind>	699</ind>	<dep>	216</dep></entry>
+      <entry><ind>	700</ind>	<dep>	252</dep></entry>
+      <entry><ind>	799</ind>	<dep>	252</dep></entry>
+      <entry><ind>	800</ind>	<dep>	288</dep></entry>
+      <entry><ind>	899</ind>	<dep>	288</dep></entry>
+      <entry><ind>	900</ind>	<dep>	324</dep></entry>
+      <entry><ind>	999</ind>	<dep>	324</dep></entry>
+      <entry><ind>	999</ind>	<dep>	359.9</dep></entry>
+    </table>
+  </expression>
+  <center>
+   <x-m>-0.009</x-m>
+   <y-m> 0.000</y-m>
+   <z-m> 0.045</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>Compass</object-name>
+    <property>orientation/heading-magnetic-deg</property>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m> 0.0</y-m>
+   <z-m>-0.0085</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Course</object-name>
+    <expression>
+      <difference>
+		<property>instrumentation/nav[0]/radials/selected-deg</property>
+        <property>orientation/heading-magnetic-deg</property>
+      </difference>
+    </expression>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m> 0.0</y-m>
+   <z-m>-0.0085</z-m>
+  </center>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>RadioCompass</object-name>
+    <expression>
+      <difference>
+        <property>instrumentation/nav[0]/heading-deg</property>
+        <property>orientation/heading-magnetic-deg</property>
+      </difference>
+    </expression>
+  <center>
+   <x-m> 0.0</x-m>
+   <y-m> 0.0</y-m>
+   <z-m>-0.0085</z-m>
+  </center>
+    <axis>
+      <x>-1</x>
+      <y>0</y>
+      <z>0</z>
+    </axis>
+  </animation>
+  
+	<animation>
+		<type>knob</type>
+		<object-name>Knob</object-name>
+		<property>instrumentation/nav[0]/radials/selected-deg</property>
+		<factor>10</factor>
+		<offset-deg>0</offset-deg>
+		<interval-sec>0.075</interval-sec>
+		<center>
+          <x-m> 0.0000</x-m>
+          <y-m> 0.0440</y-m>
+          <z-m>-0.0482</z-m>
+		</center>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+		<increase>
+			<binding>
+				<command>property-adjust</command>
+				<property>instrumentation/nav[0]/radials/selected-deg</property>
+				<step>1</step>
+				<min>0</min>
+				<max>360</max>
+				<wrap>true</wrap>
+			</binding>
+		</increase>
+		<decrease>
+			<binding>
+				<command>property-adjust</command>
+				<property>instrumentation/nav[0]/radials/selected-deg</property>
+				<step>-1</step>
+				<min>0</min>
+				<max>360</max>
+				<wrap>true</wrap>
+			</binding>
+		</decrease>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<tooltip-id>crs</tooltip-id>
+				<label>Course</label>
+			</binding>
+		</hovered>
+	</animation>
+</PropertyList>
