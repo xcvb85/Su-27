@@ -181,7 +181,11 @@
  <propulsion>
 
    <engine file="Saturn-AL-31">
+    <feed>0</feed>
     <feed>1</feed>
+    <feed>2</feed>
+    <feed>3</feed>
+    <feed>4</feed>
     <thruster file="direct">
      <location unit="IN">
        <x> 802.25 </x>
@@ -197,7 +201,11 @@
   </engine>
 
    <engine file="Saturn-AL-31">
+    <feed>0</feed>
     <feed>1</feed>
+    <feed>2</feed>
+    <feed>3</feed>
+    <feed>4</feed>
     <thruster file="direct">
      <location unit="IN">
        <x> 802.25 </x>
