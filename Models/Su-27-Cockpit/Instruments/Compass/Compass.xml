@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>KI-13.ac</path>
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>glass</object-name>
+	</effect>
+	<animation>
+		<type>rotate</type>
+		<object-name>KI-13.face</object-name>
+		<property>/instrumentation/magnetic-compass/indicated-heading-deg</property>
+		<factor>1</factor>
+		<center>
+			<x-m>0.000</x-m>
+			<y-m>0.000</y-m>
+			<z-m>0.000</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+	</animation>
+</PropertyList>
