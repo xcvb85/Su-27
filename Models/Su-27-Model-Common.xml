@@ -12,7 +12,14 @@
   <effect>
     <name>Aircraft/Su-27/Models/Effects/fuselage</name>
     <inherits-from>Aircraft/Su-27/Models/Effects/fuselage</inherits-from>
+    <object-name>HULL_Speedbrake_Outer</object-name>
+    <object-name>WNG_Left_Flaperon</object-name>
+    <object-name>WNG_Right_Flaperon</object-name>
+    <object-name>ELV_Elevon_Left</object-name>
     <object-name>HULL_Hull_Upper</object-name>
+    <object-name>TF_Left_Rudder</object-name>
+    <object-name>TF_Right_Rudder</object-name>
+    <object-name>ELV_Elevon_Right</object-name>
   </effect>
   <effect>
     <name>Aircraft/Su-27/Models/Effects/fabric</name>
