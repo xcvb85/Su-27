@@ -2,12 +2,31 @@
 <PropertyList>
 	<path>Su-27-Cockpit.ac</path>
 	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
+		<offsets>
+			<x-m>4.30</x-m>
+			<y-m>0.28</y-m>
+			<z-m>1.41</z-m>
+			<pitch-deg>-5</pitch-deg>
+		</offsets>
+	</model>
+	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HUD/HUD.xml</path>
 		<offsets>
 			<x-m>4.223</x-m>
 			<y-m>0.01</y-m>
 			<z-m>1.185</z-m>
 			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<name>Pylons-board</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Pylons-board/Pylons-board.xml</path>
+		<offsets>
+			<x-m>4.295</x-m>
+			<y-m>0.010</y-m>
+			<z-m>1.188</z-m>
+			<pitch-deg>-5</pitch-deg>
 		</offsets>
 	</model>
 	<model>
