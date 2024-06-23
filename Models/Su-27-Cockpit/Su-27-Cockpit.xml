@@ -4,7 +4,7 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
 		<offsets>
-			<x-m>4.30</x-m>
+			<x-m>4.60</x-m>
 			<y-m>0.28</y-m>
 			<z-m>1.41</z-m>
 			<pitch-deg>-5</pitch-deg>
@@ -13,65 +13,71 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HUD/HUD.xml</path>
 		<offsets>
-			<x-m>4.223</x-m>
+			<x-m>4.70</x-m>
 			<y-m>0.01</y-m>
-			<z-m>1.185</z-m>
-			<pitch-deg>0</pitch-deg>
+			<z-m>1.12</z-m>
+			<pitch-deg>-18</pitch-deg>
 		</offsets>
 	</model>
 	<model>
 		<name>Pylons-board</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Pylons-board/Pylons-board.xml</path>
 		<offsets>
-			<x-m>4.295</x-m>
-			<y-m>0.010</y-m>
-			<z-m>1.188</z-m>
-			<pitch-deg>-5</pitch-deg>
+			<x-m>4.65</x-m>
+			<y-m>0.01</y-m>
+			<z-m>1.10</z-m>
+			<pitch-deg>-18</pitch-deg>
 		</offsets>
 	</model>
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD-IPV/mfd-ipv.xml</path>
 		<offsets>
-			<x-m>4.25</x-m>
+			<x-m>4.60</x-m>
 			<y-m>0.25</y-m>
-			<z-m>1.17</z-m>
-			<pitch-deg>-5</pitch-deg>
+			<z-m>1.08</z-m>
+			<pitch-deg>-20</pitch-deg>
 		</offsets>
 	</model>
 	<model>
 		<name>Instruments</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments.xml</path>
 		<offsets>
-			<x-m> 4.300</x-m>
+			<x-m> 4.640</x-m>
 			<y-m> 0.000</y-m>
-			<z-m> 1.000</z-m>
-			<pitch-deg>-5</pitch-deg>
+			<z-m> 0.920</z-m>
+			<pitch-deg>-20</pitch-deg>
 		</offsets>
 	</model>
-	<model>
+<!--	<model>
 		<name>InstrumentsOld</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/InstrumentsOld.xml</path>
-	</model>
+	</model>-->
 	<model>
 		<name>Right Panels</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels.xml</path>
+		<offsets>
+			<x-m> 0.35</x-m>
+			<y-m> 0.00</y-m>
+			<z-m>-0.05</z-m>
+			<roll-deg>3</roll-deg>
+		</offsets>
 	</model>
 	<model>
 		<name>Left Panels</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels.xml</path>
 		<offsets>
-			<x-m>0.00</x-m>
-			<y-m>0.02</y-m>
-			<z-m>0.00</z-m>
-			<roll-deg>1.5</roll-deg>
+			<x-m> 0.35</x-m>
+			<y-m> 0.02</y-m>
+			<z-m>-0.05</z-m>
+			<roll-deg>3</roll-deg>
 		</offsets>
 	</model>
 	<model>
 		<name>Stick</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Stick/stick.xml</path>
 		<offsets>
-			<x-m>4.5</x-m>
-			<y-m>0.01</y-m>
+			<x-m>4.8</x-m>
+			<y-m>0.0</y-m>
 			<z-m>0.5</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
