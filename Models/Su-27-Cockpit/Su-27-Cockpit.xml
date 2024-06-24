@@ -66,6 +66,25 @@
 		</offsets>
 	</model>
 	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
+		<offsets>
+			<x-m> 4.62</x-m>
+			<y-m>-0.28</y-m>
+			<z-m> 1.04</z-m>
+			<pitch-deg>-20</pitch-deg>
+		</offsets>
+	</model>
+<!--	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Emergency-brake/emergency-brake.xml</path>
+		<offsets>
+			<x-m>4.50</x-m>
+			<y-m>-0.275</y-m>
+			<z-m>0.83</z-m>
+			<pitch-deg>12</pitch-deg>
+			<roll-deg>1</roll-deg>
+		</offsets>
+	</model>-->
+	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Stick/Stick.xml</path>
 		<offsets>
 			<x-m>4.8</x-m>

@@ -41,6 +41,46 @@
 		</offsets>
 	</model>
 	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Gears-handle/Gears-handle.xml</path>
+		<offsets>
+			<x-m> 0.010</x-m>
+			<y-m>-0.390</y-m>
+			<z-m>-0.090</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/ControlInd/slats-flaps-gear-indicator.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m>-0.345</y-m>
+			<z-m>-0.090</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Chronometer/Chronometer.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m>-0.275</y-m>
+			<z-m>-0.090</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/LaserRangerSwitch/LaserRangerSwitch.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m>-0.400</y-m>
+			<z-m>-0.030</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Slats-indicator/Slats-indicator.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m>-0.330</y-m>
+			<z-m> 0.000</z-m>
+		</offsets>
+	</model>
+	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/RALT/RALT.xml</path>
 		<offsets>
 			<x-m> 0.005</x-m>
@@ -65,9 +105,17 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-left.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/IPK/IPK.xml</path>
 		<offsets>
 			<x-m> 0.005</x-m>
+			<y-m> 0.013</y-m>
+			<z-m>-0.020</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-left.xml</path>
+		<offsets>
+			<x-m> 0.000</x-m>
 			<y-m> 0.082</y-m>
 			<z-m>-0.020</z-m>
 		</offsets>
@@ -75,7 +123,7 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-right.xml</path>
 		<offsets>
-			<x-m> 0.005</x-m>
+			<x-m> 0.000</x-m>
 			<y-m> 0.148</y-m>
 			<z-m>-0.020</z-m>
 		</offsets>
@@ -93,15 +141,23 @@
 		<offsets>
 			<x-m>0.000</x-m>
 			<y-m>0.220</y-m>
-			<z-m>0.000</z-m>
+			<z-m>0.015</z-m>
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Ekran/ekran.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Ekran/Ekran.xml</path>
 		<offsets>
 			<x-m>0.000</x-m>
-			<y-m>0.288</y-m>
-			<z-m>0.000</z-m>
+			<y-m>0.280</y-m>
+			<z-m>0.010</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/RWR/RWR.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m> 0.370</y-m>
+			<z-m>-0.080</z-m>
 		</offsets>
 	</model>
 </PropertyList>

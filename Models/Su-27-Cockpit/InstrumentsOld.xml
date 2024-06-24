@@ -31,16 +31,6 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Gears-handle</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Gears-handle/Gears-handle.xml</path>
-		<offsets>
-			<x-m>4.325</x-m>
-			<y-m>-0.39</y-m>
-			<z-m>0.911</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Slats-indicator/Slats-indicator.xml</path>
 		<offsets>
 			<x-m>4.310</x-m>
@@ -77,73 +67,6 @@
 			<y-m>0.12</y-m>
 			<z-m>1.20</z-m>
 			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<name>EmergencyGearsHandle</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
-		<offsets>
-			<x-m>4.31</x-m>
-			<y-m>-0.22</y-m>
-			<z-m>1.15</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Emergency-brake/emergency-brake.xml</path>
-		<offsets>
-			<x-m>4.50</x-m>
-			<y-m>-0.275</y-m>
-			<z-m>0.83</z-m>
-			<pitch-deg>12</pitch-deg>
-			<roll-deg>1</roll-deg>
-		</offsets>
-	</model>
-	<model>
-		<name>IPK</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/IPK/IPK.xml</path>
-		<offsets>
-			<x-m>4.31</x-m>
-			<y-m>0.013</y-m>
-			<z-m>0.98</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<name>LaserRangerSwitch</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/LaserRangerSwitch/LaserRangerSwitch.xml</path>
-		<offsets>
-			<x-m>4.300</x-m>
-			<y-m>-0.376</y-m>
-			<z-m>0.975</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/SPO-15LM/SPO-15LM.xml</path>
-		<offsets>
-			<x-m>4.315</x-m>
-			<y-m>0.392</y-m>
-			<z-m>0.886</z-m>
-			<pitch-deg>-3.5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Chronometer/Chronometer.xml</path>
-		<offsets>
-			<x-m>4.315</x-m>
-			<y-m>-0.270</y-m>
-			<z-m>0.91</z-m>
-			<pitch-deg>-4</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/ControlInd/slats-flaps-gear-indicator.xml</path>
-		<offsets>
-			<x-m>4.355</x-m>
-			<y-m>-0.316</y-m>
-			<z-m>0.95</z-m>
-			<pitch-deg>-4</pitch-deg>
 		</offsets>
 	</model>
 </PropertyList>
