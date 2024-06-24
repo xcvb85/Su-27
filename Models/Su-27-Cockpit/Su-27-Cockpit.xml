@@ -30,7 +30,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD-IPV/mfd-ipv.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/MFD.xml</path>
 		<offsets>
 			<x-m>4.60</x-m>
 			<y-m>0.25</y-m>
@@ -39,7 +39,6 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Instruments</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments.xml</path>
 		<offsets>
 			<x-m> 4.640</x-m>
@@ -48,12 +47,7 @@
 			<pitch-deg>-20</pitch-deg>
 		</offsets>
 	</model>
-<!--	<model>
-		<name>InstrumentsOld</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/InstrumentsOld.xml</path>
-	</model>-->
 	<model>
-		<name>Right Panels</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels.xml</path>
 		<offsets>
 			<x-m> 0.35</x-m>
@@ -63,7 +57,6 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Left Panels</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels.xml</path>
 		<offsets>
 			<x-m> 0.35</x-m>
@@ -73,56 +66,32 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Stick</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Stick/stick.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Stick/Stick.xml</path>
 		<offsets>
 			<x-m>4.8</x-m>
 			<y-m>0.0</y-m>
 			<z-m>0.5</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
-		<!--Stick animations defined near the EOF-->
 	</model>
 	<model>
-		<name>pedals</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/divers/pedals.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Throttle/Throttle.xml</path>
 		<offsets>
-			<x-m>4.2</x-m>
-			<y-m>0.01</y-m>
+			<x-m>4.974</x-m>
+			<y-m>-0.466</y-m>
+			<z-m>1.034</z-m>
+			<pitch-deg>-2</pitch-deg>
+			<roll-deg>-8</roll-deg>
+			<heading-deg>-5</heading-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Pedals/Pedals.xml</path>
+		<offsets>
+			<x-m>4.5</x-m>
+			<y-m>0.0</y-m>
 			<z-m>0.5</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
-	<animation>
-		<type>rotate</type>
-		<object-name>Stick</object-name>
-		<property>controls/flight/elevator</property>
-		<factor>13</factor>
-		<center>
-			<x-m>4.400</x-m>
-			<y-m>0.00</y-m>
-			<z-m>0.640</z-m>
-		</center>
-		<axis>
-			<x>0</x>
-			<y>-1</y>
-			<z>0</z>
-		</axis>
-	</animation>
-	<animation>
-		<type>rotate</type>
-		<object-name>Stick</object-name>
-		<property>controls/flight/aileron</property>
-		<factor>13</factor>
-		<center>
-			<x-m>4.400</x-m>
-			<y-m>0.000</y-m>
-			<z-m>0.640</z-m>
-		</center>
-		<axis>
-			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
-		</axis>
-	</animation>
 </PropertyList>

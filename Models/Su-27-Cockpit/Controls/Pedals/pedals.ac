@@ -9,7 +9,7 @@ OBJECT poly
 name "CPT-L-pedal"
 loc -0.0071680 0.0212720 0.3006640
 crease 179.0
-texture "pedals2.png"
+texture "pedals.png"
 texrep 1 1
 numvert 128
 -0.0838030 -0.0109635 -0.1026468
@@ -952,7 +952,7 @@ OBJECT poly
 name "CPT-R-pedal"
 loc -0.0071680 0.0212720 -0.3006643
 crease 179.0
-texture "pedals2.png"
+texture "pedals.png"
 texrep 1 1
 numvert 128
 -0.0838030 -0.0109635 -0.1026468
@@ -1895,7 +1895,7 @@ OBJECT poly
 name "PedalCt"
 loc -0.1290600 -0.0018773 -0.0000000
 crease 179.0
-texture "pedals2.png"
+texture "pedals.png"
 texrep 1 1
 numvert 88
 -0.0075029 -0.0131227 -0.1662835

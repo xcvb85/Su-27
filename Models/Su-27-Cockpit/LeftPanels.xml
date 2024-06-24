@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
 	<model>
-		<name>Throttle-blocks</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels/Throttle.blocks/throttle-blocks.xml</path>
-		<offsets>
-			<x-m>4.624</x-m>
-			<y-m>-0.466</y-m>
-			<z-m>1.039</z-m>
-			<pitch-deg>-2</pitch-deg>
-			<roll-deg>-8</roll-deg>
-			<heading-deg>-5</heading-deg>
-		</offsets>
-	</model>
-	<model>
 		<name>wcs-panel</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels/WCS-panel/wcs-panel.xml</path>
 		<offsets>

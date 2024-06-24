@@ -65,12 +65,43 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Hydro-pneu-indicator</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-left.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m> 0.082</y-m>
+			<z-m>-0.020</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-right.xml</path>
+		<offsets>
+			<x-m> 0.005</x-m>
+			<y-m> 0.148</y-m>
+			<z-m>-0.020</z-m>
+		</offsets>
+	</model>
+	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Hydro-PneumaticsIndicators/Hydro-pneu-indicator.xml</path>
 		<offsets>
 			<x-m> 0.000</x-m>
 			<y-m> 0.056</y-m>
 			<z-m>-0.100</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/fuel-indicator/fuel-indicator.xml</path>
+		<offsets>
+			<x-m>0.000</x-m>
+			<y-m>0.220</y-m>
+			<z-m>0.000</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Ekran/ekran.xml</path>
+		<offsets>
+			<x-m>0.000</x-m>
+			<y-m>0.288</y-m>
+			<z-m>0.000</z-m>
 		</offsets>
 	</model>
 </PropertyList>

@@ -11,16 +11,6 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Ekran</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Ekran/ekran.xml</path>
-		<offsets>
-			<x-m>4.3001</x-m>
-			<y-m>0.288</y-m>
-			<z-m>1.00</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
 		<name>AfterBurnerLeds</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/WarningLights/AfterBurnerLeds.xml</path>
 		<offsets>
@@ -37,26 +27,6 @@
 			<x-m>4.296</x-m>
 			<y-m>0.014</y-m>
 			<z-m>0.930</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<name>TurbineTempIndic</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-right.xml</path>
-		<offsets>
-			<x-m>4.303</x-m>
-			<y-m>0.148</y-m>
-			<z-m>0.980</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<name>TurbineTempIndic</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-left.xml</path>
-		<offsets>
-			<x-m>4.303</x-m>
-			<y-m>0.082</y-m>
-			<z-m>0.980</z-m>
 			<pitch-deg>-5</pitch-deg>
 		</offsets>
 	</model>
@@ -146,15 +116,6 @@
 			<x-m>4.300</x-m>
 			<y-m>-0.376</y-m>
 			<z-m>0.975</z-m>
-			<pitch-deg>-5</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/fuel-indicator/fuel-indicator.xml</path>
-		<offsets>
-			<x-m>4.305</x-m>
-			<y-m>0.22</y-m>
-			<z-m>1.0</z-m>
 			<pitch-deg>-5</pitch-deg>
 		</offsets>
 	</model>
