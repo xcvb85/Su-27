@@ -51,14 +51,25 @@
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels.xml</path>
 		<offsets>
 			<x-m> 4.710</x-m>
-			<y-m>-0.317</y-m>
-			<z-m> 0.740</z-m>
-			<pitch-deg>3.8</pitch-deg>
+			<y-m>-0.307</y-m>
+			<z-m> 0.735</z-m>
+			<pitch-deg>3.5</pitch-deg>
 			<roll-deg>-14</roll-deg>
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels1.xml</path>
+		<offsets>
+			<x-m> 4.710</x-m>
+			<y-m> 0.307</y-m>
+			<z-m> 0.735</z-m>
+			<pitch-deg>3.5</pitch-deg>
+			<roll-deg>14</roll-deg>
+		</offsets>
+	</model>
+	<!--
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels2.xml</path>
 		<offsets>
 			<x-m> 0.35</x-m>
 			<y-m> 0.02</y-m>
@@ -66,6 +77,7 @@
 			<roll-deg>3</roll-deg>
 		</offsets>
 	</model>
+	-->
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
 		<offsets>
@@ -88,7 +100,7 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Stick/Stick.xml</path>
 		<offsets>
-			<x-m>4.8</x-m>
+			<x-m>4.9</x-m>
 			<y-m>0.0</y-m>
 			<z-m>0.5</z-m>
 			<pitch-deg>0</pitch-deg>

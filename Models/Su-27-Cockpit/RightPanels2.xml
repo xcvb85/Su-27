@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels/Power-Switches-panel/Power-switches-panel.xml</path>
+		<offsets>
+			<x-m>4.325</x-m>
+			<y-m>0.512</y-m>
+			<z-m>0.866</z-m>
+			<roll-deg>30.5</roll-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels/Flares-Chaff-IFF-panel/Flares-chaffs-IFF-cp.xml</path>
+		<offsets>
+			<x-m>4.726</x-m>
+			<y-m>0.570</y-m>
+			<z-m>0.916</z-m>
+			<roll-deg>30.5</roll-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels/Electricity-SDU-power-panel/Electricity-SDU-power-panel.xml</path>
+		<offsets>
+			<x-m>5.049</x-m>
+			<y-m>0.603</y-m>
+			<z-m>0.905</z-m>
+			<roll-deg>36</roll-deg>
+		</offsets>
+	</model>
+</PropertyList>
