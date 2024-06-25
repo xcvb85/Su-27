@@ -160,4 +160,61 @@
 			<z-m>-0.080</z-m>
 		</offsets>
 	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/WarningLights/Trimmers.Leds.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m> 0.014</y-m>
+			<z-m>-0.070</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/WarningLights/AfterBurnerLeds.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m>0.110</y-m>
+			<z-m>0.118</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/WarningLights/UpperLeds.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m>0.120</y-m>
+			<z-m>0.200</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MarkerSelector/MarkerSelector.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m>-0.200</y-m>
+			<z-m> 0.000</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/WarningLights/MarkersLeds.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m>-0.200</y-m>
+			<z-m>-0.070</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Slats-indicator/Slats-indicator.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m>-0.330</y-m>
+			<z-m>-0.010</z-m>
+		</offsets>
+	</model>
+	<model>
+		<name>WarnLights</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/WarningLights/WarnLights.xml</path>
+		<offsets>
+			<x-m>-0.015</x-m>
+			<y-m> 0.350</y-m>
+			<z-m>-0.005</z-m>
+		</offsets>
+	</model>
 </PropertyList>

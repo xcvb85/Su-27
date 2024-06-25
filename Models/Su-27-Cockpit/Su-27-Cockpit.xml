@@ -50,10 +50,11 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels.xml</path>
 		<offsets>
-			<x-m> 0.35</x-m>
-			<y-m> 0.00</y-m>
-			<z-m>-0.05</z-m>
-			<roll-deg>3</roll-deg>
+			<x-m> 4.710</x-m>
+			<y-m>-0.317</y-m>
+			<z-m> 0.740</z-m>
+			<pitch-deg>3.8</pitch-deg>
+			<roll-deg>-14</roll-deg>
 		</offsets>
 	</model>
 	<model>
