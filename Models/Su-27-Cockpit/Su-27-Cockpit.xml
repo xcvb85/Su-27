@@ -67,17 +67,17 @@
 			<roll-deg>14</roll-deg>
 		</offsets>
 	</model>
-	<!--
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels2.xml</path>
 		<offsets>
-			<x-m> 0.35</x-m>
-			<y-m> 0.02</y-m>
-			<z-m>-0.05</z-m>
-			<roll-deg>3</roll-deg>
+			<x-m> 4.700</x-m>
+			<y-m> 0.515</y-m>
+			<z-m> 0.795</z-m>
+			<roll-deg>52</roll-deg>
+			<pitch-deg>2</pitch-deg>
+			<yaw-deg>3</yaw-deg>
 		</offsets>
 	</model>
-	-->
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
 		<offsets>
