@@ -11,6 +11,6 @@
 	</model>
 	<model>
 		<name>Stores</name>
-		<path>Aircraft/Su-27/Models/Stores/Stores.xml</path>
+		<path>Aircraft/Su-27/Models/Stores/Su-35-Stores.xml</path>
 	</model>
 </PropertyList>
