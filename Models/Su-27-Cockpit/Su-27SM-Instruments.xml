@@ -2,20 +2,28 @@
 <PropertyList>
 	<model>
 		<name>mfd1</name>
-		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/MFD/mfd1.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd1.xml</path>
 		<offsets>
-			<x-m> 0.000</x-m>
+			<x-m> 0.010</x-m>
 			<y-m>-0.200</y-m>
-			<z-m>-0.050</z-m>
+			<z-m>-0.020</z-m>
 		</offsets>
 	</model>
 	<model>
 		<name>mfd2</name>
-		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/MFD/mfd2.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd2.xml</path>
 		<offsets>
-			<x-m> 0.000</x-m>
+			<x-m> 0.010</x-m>
 			<y-m> 0.200</y-m>
-			<z-m>-0.050</z-m>
+			<z-m>-0.020</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/ADI/ADI2.xml</path>
+		<offsets>
+			<x-m> 0.015</x-m>
+			<y-m> 0.000</y-m>
+			<z-m>-0.130</z-m>
 		</offsets>
 	</model>
 </PropertyList>
