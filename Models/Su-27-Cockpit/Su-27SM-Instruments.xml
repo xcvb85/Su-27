@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<model>
+		<name>mfd1</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/MFD/mfd1.xml</path>
+		<offsets>
+			<x-m> 0.000</x-m>
+			<y-m>-0.200</y-m>
+			<z-m>-0.050</z-m>
+		</offsets>
+	</model>
+	<model>
+		<name>mfd2</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Instruments/MFD/mfd2.xml</path>
+		<offsets>
+			<x-m> 0.000</x-m>
+			<y-m> 0.200</y-m>
+			<z-m>-0.050</z-m>
+		</offsets>
+	</model>
+</PropertyList>

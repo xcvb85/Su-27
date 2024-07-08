@@ -39,7 +39,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SM-Instruments.xml</path>
 		<offsets>
 			<x-m> 4.640</x-m>
 			<y-m> 0.000</y-m>

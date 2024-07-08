@@ -2,7 +2,7 @@
 <PropertyList include="Su-27-Common.xml">
 	<sim>
 		<description>Sukhoi Su-33</description>
-		<variant-of>Su-27S</variant-of>
+		<variant-of>Su-27SK</variant-of>
 		<variant-id type="int">2</variant-id>
 		<long-description>The Su-33 is the carrier version of the Su-27.</long-description>
 		<status>beta</status>

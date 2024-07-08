@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList include="Su-27-Common.xml">
 	<sim>
-		<description>Sukhoi Su-35S</description>
+		<description>Sukhoi Su-27SM</description>
 		<variant-of>Su-27SK</variant-of>
-		<variant-id type="int">4</variant-id>
-		<long-description>The Su-35S is the latest version of the Su-27 with advanced avionics and thrust vectoring.</long-description>
+		<variant-id type="int">3</variant-id>
+		<long-description>The Su-27SM is the improved version of the Su-27 with glass cockpit and better weapon support.</long-description>
 		<status>beta</status>
 		<rating>
 			<FDM type="int">3</FDM>
@@ -12,9 +12,9 @@
 			<cockpit type="int">2</cockpit>
 			<model type="int">4</model>
 		</rating>
-		<menubar include="gui/Menubar-Su-35.xml"/>
+		<menubar include="gui/Menubar-Su-27.xml"/>
 		<model>
-			<path>Aircraft/Su-27/Models/Su-35S-Model.xml</path>
+			<path>Aircraft/Su-27/Models/Su-27SM-Model.xml</path>
 		</model>
 	</sim>
 	<nasal>

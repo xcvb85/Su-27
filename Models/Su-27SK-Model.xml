@@ -6,10 +6,6 @@
 	</model>
 	<model>
 		<name>cockpit</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27-Cockpit.xml</path>
-	</model>
-	<model>
-		<name>Stores</name>
-		<path>Aircraft/Su-27/Models/Stores/Su-27-Stores.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SK-Cockpit.xml</path>
 	</model>
 </PropertyList>

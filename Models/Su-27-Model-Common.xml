@@ -31,6 +31,10 @@
 		<name>Gear</name>
 		<path>Aircraft/Su-27/Models/Gear.xml</path>
 	</model>
+	<model>
+		<name>Stores</name>
+		<path>Aircraft/Su-27/Models/Stores/Su-27-Stores.xml</path>
+	</model>
 
  <animation>
     <type>material</type>    

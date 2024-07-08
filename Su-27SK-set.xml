@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList include="Su-27-Common.xml">
 	<sim>
-		<description>Sukhoi Su-27S</description>
+		<description>Sukhoi Su-27SK</description>
 		<variant-id type="int">1</variant-id>
-		<long-description>The Su-27S is the first slightly improved version of the Su-27 with basic A/G support.</long-description>
+		<long-description>The Su-27SK is the export variant of the Su-27.</long-description>
 		<status>beta</status>
 		<rating>
 			<FDM type="int">3</FDM>
@@ -13,7 +13,7 @@
 		</rating>
 		<menubar include="gui/Menubar-Su-27.xml"/>
 		<model>
-			<path>Aircraft/Su-27/Models/Su-27-Model.xml</path>
+			<path>Aircraft/Su-27/Models/Su-27SK-Model.xml</path>
 		</model>
 	</sim>
 </PropertyList>
