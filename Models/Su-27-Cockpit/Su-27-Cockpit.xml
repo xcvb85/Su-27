@@ -4,7 +4,7 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
 		<offsets>
-			<x-m>4.30</x-m>
+			<x-m>4.60</x-m>
 			<y-m>0.28</y-m>
 			<z-m>1.41</z-m>
 			<pitch-deg>-5</pitch-deg>
@@ -13,110 +13,117 @@
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HUD/HUD.xml</path>
 		<offsets>
-			<x-m>4.223</x-m>
+			<x-m>4.70</x-m>
 			<y-m>0.01</y-m>
-			<z-m>1.185</z-m>
-			<pitch-deg>0</pitch-deg>
+			<z-m>1.12</z-m>
+			<pitch-deg>-18</pitch-deg>
 		</offsets>
 	</model>
 	<model>
 		<name>Pylons-board</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Pylons-board/Pylons-board.xml</path>
 		<offsets>
-			<x-m>4.295</x-m>
-			<y-m>0.010</y-m>
-			<z-m>1.188</z-m>
-			<pitch-deg>-5</pitch-deg>
+			<x-m>4.65</x-m>
+			<y-m>0.01</y-m>
+			<z-m>1.10</z-m>
+			<pitch-deg>-18</pitch-deg>
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD-IPV/mfd-ipv.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/MFD.xml</path>
 		<offsets>
-			<x-m>4.25</x-m>
+			<x-m>4.60</x-m>
 			<y-m>0.25</y-m>
-			<z-m>1.17</z-m>
-			<pitch-deg>-5</pitch-deg>
+			<z-m>1.08</z-m>
+			<pitch-deg>-20</pitch-deg>
 		</offsets>
 	</model>
 	<model>
-		<name>Instruments</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments.xml</path>
 		<offsets>
-			<x-m> 4.300</x-m>
+			<x-m> 4.640</x-m>
 			<y-m> 0.000</y-m>
-			<z-m> 1.000</z-m>
-			<pitch-deg>-5</pitch-deg>
+			<z-m> 0.920</z-m>
+			<pitch-deg>-20</pitch-deg>
 		</offsets>
 	</model>
 	<model>
-		<name>InstrumentsOld</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/InstrumentsOld.xml</path>
-	</model>
-	<model>
-		<name>Right Panels</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/LeftPanels.xml</path>
-	</model>
-	<model>
-		<name>Left Panels</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels.xml</path>
 		<offsets>
-			<x-m>0.00</x-m>
-			<y-m>0.02</y-m>
-			<z-m>0.00</z-m>
-			<roll-deg>1.5</roll-deg>
+			<x-m> 4.710</x-m>
+			<y-m>-0.300</y-m>
+			<z-m> 0.735</z-m>
+			<pitch-deg>3.5</pitch-deg>
+			<roll-deg>-14</roll-deg>
 		</offsets>
 	</model>
 	<model>
-		<name>Stick</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Stick/stick.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels1.xml</path>
+		<offsets>
+			<x-m> 4.710</x-m>
+			<y-m> 0.300</y-m>
+			<z-m> 0.735</z-m>
+			<roll-deg>14</roll-deg>
+			<pitch-deg>3.5</pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/RightPanels2.xml</path>
+		<offsets>
+			<x-m> 4.710</x-m>
+			<y-m> 0.520</y-m>
+			<z-m> 0.795</z-m>
+			<roll-deg>50</roll-deg>
+			<pitch-deg>5</pitch-deg>
+			<heading-deg>-3</heading-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
+		<offsets>
+			<x-m> 4.62</x-m>
+			<y-m>-0.28</y-m>
+			<z-m> 1.04</z-m>
+			<pitch-deg>-20</pitch-deg>
+		</offsets>
+	</model>
+<!--	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Emergency-brake/emergency-brake.xml</path>
+		<offsets>
+			<x-m>4.50</x-m>
+			<y-m>-0.275</y-m>
+			<z-m>0.83</z-m>
+			<pitch-deg>12</pitch-deg>
+			<roll-deg>1</roll-deg>
+		</offsets>
+	</model>-->
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Stick/Stick.xml</path>
+		<offsets>
+			<x-m>4.9</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.5</z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Throttle/Throttle.xml</path>
+		<offsets>
+			<x-m>4.974</x-m>
+			<y-m>-0.466</y-m>
+			<z-m>1.034</z-m>
+			<pitch-deg>-2</pitch-deg>
+			<roll-deg>-8</roll-deg>
+			<heading-deg>-5</heading-deg>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Pedals/Pedals.xml</path>
 		<offsets>
 			<x-m>4.5</x-m>
-			<y-m>0.01</y-m>
-			<z-m>0.5</z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-		<!--Stick animations defined near the EOF-->
-	</model>
-	<model>
-		<name>pedals</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/divers/pedals.xml</path>
-		<offsets>
-			<x-m>4.2</x-m>
-			<y-m>0.01</y-m>
+			<y-m>0.0</y-m>
 			<z-m>0.5</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
-	<animation>
-		<type>rotate</type>
-		<object-name>Stick</object-name>
-		<property>controls/flight/elevator</property>
-		<factor>13</factor>
-		<center>
-			<x-m>4.400</x-m>
-			<y-m>0.00</y-m>
-			<z-m>0.640</z-m>
-		</center>
-		<axis>
-			<x>0</x>
-			<y>-1</y>
-			<z>0</z>
-		</axis>
-	</animation>
-	<animation>
-		<type>rotate</type>
-		<object-name>Stick</object-name>
-		<property>controls/flight/aileron</property>
-		<factor>13</factor>
-		<center>
-			<x-m>4.400</x-m>
-			<y-m>0.000</y-m>
-			<z-m>0.640</z-m>
-		</center>
-		<axis>
-			<x>-1</x>
-			<y>0</y>
-			<z>0</z>
-		</axis>
-	</animation>
 </PropertyList>

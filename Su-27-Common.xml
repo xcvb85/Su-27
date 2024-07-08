@@ -3,6 +3,7 @@
 	<sim include="Systems/views.xml">
 		<author></author>
 		<expected-aircraft-dir-name>Su-27</expected-aircraft-dir-name>
+		<fallback-model-index type="int">515</fallback-model-index>
 		<flight-model>jsb</flight-model>
 		<aero>Su-27</aero>
 		<sound><path>Aircraft/Su-27/Sounds/Sounds.xml</path></sound>

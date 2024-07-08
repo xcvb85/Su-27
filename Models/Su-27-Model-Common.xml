@@ -34,7 +34,8 @@
 
  <animation>
     <type>material</type>    
-    <object-name>Canopy</object-name>
+    <object-name>Canopy_Front</object-name>
+    <object-name>Canopy_Rear</object-name>
     <object-name>HULL_Speedbrake_Outer</object-name>
     <object-name>WNG_Left_Flaperon</object-name>
     <object-name>WNG_Right_Flaperon</object-name>

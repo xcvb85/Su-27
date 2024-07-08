@@ -14,12 +14,6 @@
 	<model>
 		<name>cockpit</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27-Cockpit.xml</path>
-		<offsets>
-			<x-m> 0.3</x-m>
-			<y-m> 0.0</y-m>
-			<z-m> 0.0</z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
 	</model>
 	<model>
 		<name>Gear</name>

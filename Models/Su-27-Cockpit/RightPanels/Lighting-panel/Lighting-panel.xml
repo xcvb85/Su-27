@@ -8,7 +8,9 @@
 		<property>controls/lighting/instruments-norm</property>
 		<factor>90</factor>
 		<center>
-			<x-m>0.029257</x-m><y-m>0.064909</y-m><z-m>0.015146</z-m>
+			<x-m>0.029257</x-m>
+			<y-m>0.064909</y-m>
+			<z-m>0.015146</z-m>
 		</center>
 		<axis>
 			<x>0</x><y>0</y><z>-1</z>
