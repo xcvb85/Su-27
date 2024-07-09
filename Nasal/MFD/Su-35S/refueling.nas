@@ -1,7 +1,7 @@
-var canvas_gear = {
+var canvas_refueling = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_gear] };
+		var m = { parents: [canvas_refueling] };
 		
 		var font_mapper = func(family, weight)
 		{
@@ -10,7 +10,7 @@ var canvas_gear = {
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/gear.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-35S/refueling.svg", {'font-mapper': font_mapper});
 
 		m.group = canvasGroup;
 		return m;

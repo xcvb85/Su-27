@@ -20,16 +20,6 @@
 		</offsets>
 	</model>
 	<model>
-		<name>Pylons-board</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Pylons-board/Pylons-board.xml</path>
-		<offsets>
-			<x-m>4.65</x-m>
-			<y-m>0.01</y-m>
-			<z-m>1.10</z-m>
-			<pitch-deg>-18</pitch-deg>
-		</offsets>
-	</model>
-	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/MFD.xml</path>
 		<offsets>
 			<x-m>4.60</x-m>

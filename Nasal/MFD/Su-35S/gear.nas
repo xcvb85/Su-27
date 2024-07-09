@@ -1,16 +1,16 @@
-var canvas_hydraulics = {
+var canvas_gear = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_hydraulics] };
+		var m = { parents: [canvas_gear] };
 		
 		var font_mapper = func(family, weight)
 		{
 			if(family == "'Liberation Sans'" and weight == "normal") {
-				return "LiberationFonts/LiberationSans-Regular.ttf";
+				return "Helvetica.txf";
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/hydraulics.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-35S/gear.svg", {'font-mapper': font_mapper});
 
 		m.group = canvasGroup;
 		return m;

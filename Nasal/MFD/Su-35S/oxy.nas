@@ -10,7 +10,7 @@ var canvas_oxy = {
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/oxy.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-35S/oxy.svg", {'font-mapper': font_mapper});
 
 		m.group = canvasGroup;
 		return m;

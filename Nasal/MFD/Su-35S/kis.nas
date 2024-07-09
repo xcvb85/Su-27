@@ -19,7 +19,7 @@ var canvas_kis = {
 				return "LiberationFonts/LiberationSans-Regular.ttf";
 			}
 		};
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/kis.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-35S/kis.svg", {'font-mapper': font_mapper});
 		var svg_keys = ["arrowL", "arrowR", "n2L", "n2R",
 						"tempL", "tempR"];
 		foreach(var key; svg_keys) {
@@ -33,8 +33,8 @@ var canvas_kis = {
 
 		append(m.SubPages, canvasGroup.createChild('group'));
 		append(m.SubPages, canvasGroup.createChild('group'));
-		canvas.parsesvg(m.SubPages[0], "Aircraft/Su-27/Nasal/MFD/panel.svg", {'font-mapper': font_mapper});
-		canvas.parsesvg(m.SubPages[1], "Aircraft/Su-27/Nasal/MFD/nozzle.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(m.SubPages[0], "Aircraft/Su-27/Nasal/MFD/Su-35S/panel.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(m.SubPages[1], "Aircraft/Su-27/Nasal/MFD/Su-35S/nozzle.svg", {'font-mapper': font_mapper});
 		m.ActiveSubPage = 0;
 
 		append(m.Pages, canvas_fuel.new(canvasGroup.createChild('group')));

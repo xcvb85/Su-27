@@ -4,10 +4,10 @@ var ndlayers = [{name:'APT',style:{scale_factor:0.8,label_font_color:[0,1,0],col
 		{name:'NDB_su',style:{scale_factor:0.8,color:[1,0,0]}},
 		{name:'WPT_su',style:{scale_factor:0.8,color:[0,1,0]}}];
 
-var canvas_to = {
+var canvas_map = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_to] };
+		var m = { parents: [canvas_map] };
 		m.map = canvasGroup.createChild('map');
 
 		var font_mapper = func(family, weight)
@@ -16,7 +16,16 @@ var canvas_to = {
 				return "LiberationFonts/LiberationSans-Regular.ttf";
 			}
 		};
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/to.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-35S/map.svg", {'font-mapper': font_mapper});
+
+		var svg_keys = ["compass1", "compass2",
+						"lb0", "lb3", "lb6", "lb9",
+						"lb12", "lb15", "lb18",
+						"lb21", "lb24", "lb27",
+						"lb30", "lb33"];
+		foreach(var key; svg_keys) {
+			m[key] = canvasGroup.getElementById(key);
+		}
 
 		var ctrl_ns = canvas.Map.Controller.get("Aircraft position");
 		var source = ctrl_ns.SOURCES["to-map"];
@@ -29,8 +38,8 @@ var canvas_to = {
 			};
 		}
 
-		m.map.setRange(25);
-		m.map.setTranslation(768, 393);
+		m.map.setRange(10);
+		m.map.setTranslation(512, 393);
 		m.map.setController("Aircraft position");
 
 		foreach(var layer; ndlayers) {
@@ -42,8 +51,30 @@ var canvas_to = {
 				priority: layer['z-index']
 			);
 		}
+		
+		m.hdg = props.globals.getNode("orientation/heading-deg");
+		m.heading = 0;
+
 		m.group = canvasGroup;
 		return m;
+	},
+	update: func()
+	{
+		me.heading = me.hdg.getValue()*D2R;
+		me.compass1.setRotation(-me.heading);
+		me.compass2.setRotation(-me.heading);
+		me.lb0.setRotation(me.heading);
+		me.lb3.setRotation(me.heading);
+		me.lb6.setRotation(me.heading);
+		me.lb9.setRotation(me.heading);
+		me.lb12.setRotation(me.heading);
+		me.lb15.setRotation(me.heading);
+		me.lb18.setRotation(me.heading);
+		me.lb21.setRotation(me.heading);
+		me.lb24.setRotation(me.heading);
+		me.lb27.setRotation(me.heading);
+		me.lb30.setRotation(me.heading);
+		me.lb33.setRotation(me.heading);
 	},
 	show: func()
 	{
