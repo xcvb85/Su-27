@@ -3,8 +3,8 @@
   <sim>
     <model>
       <livery>
-        <name type="string">Gromov Test Pilots Display Team</name>
-        <texture>Liveries/GromovTestPilots.png</texture>
+        <name type="string">Angola Air Force</name>
+        <texture>Liveries/AngolaAF.png</texture>
       </livery>
     </model>
   </sim>

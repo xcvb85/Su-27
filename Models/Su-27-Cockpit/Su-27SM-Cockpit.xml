@@ -2,6 +2,9 @@
 <PropertyList>
 	<path>Su-27-Cockpit.ac</path>
 	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SM-Panels.ac</path>
+	</model>
+	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
 		<offsets>
 			<x-m>4.60</x-m>
@@ -17,15 +20,6 @@
 			<y-m>0.01</y-m>
 			<z-m>1.12</z-m>
 			<pitch-deg>-18</pitch-deg>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/MFD.xml</path>
-		<offsets>
-			<x-m>4.60</x-m>
-			<y-m>0.25</y-m>
-			<z-m>1.08</z-m>
-			<pitch-deg>-20</pitch-deg>
 		</offsets>
 	</model>
 	<model>
@@ -68,25 +62,6 @@
 			<heading-deg>-3</heading-deg>
 		</offsets>
 	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
-		<offsets>
-			<x-m> 4.62</x-m>
-			<y-m>-0.28</y-m>
-			<z-m> 1.04</z-m>
-			<pitch-deg>-20</pitch-deg>
-		</offsets>
-	</model>
-<!--	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Emergency-brake/emergency-brake.xml</path>
-		<offsets>
-			<x-m>4.50</x-m>
-			<y-m>-0.275</y-m>
-			<z-m>0.83</z-m>
-			<pitch-deg>12</pitch-deg>
-			<roll-deg>1</roll-deg>
-		</offsets>
-	</model>-->
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Stick/Stick.xml</path>
 		<offsets>

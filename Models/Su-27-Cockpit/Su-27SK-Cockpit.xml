@@ -2,6 +2,9 @@
 <PropertyList>
 	<path>Su-27-Cockpit.ac</path>
 	<model>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SK-Panels.ac</path>
+	</model>
+	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
 		<offsets>
 			<x-m>4.60</x-m>
@@ -30,7 +33,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/MFD.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HDD/HDD.xml</path>
 		<offsets>
 			<x-m>4.60</x-m>
 			<y-m>0.25</y-m>
