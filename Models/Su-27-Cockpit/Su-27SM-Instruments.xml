@@ -5,9 +5,18 @@
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd1.xml</path>
 		<offsets>
 			<x-m> 0.030</x-m>
-			<y-m>-0.200</y-m>
-			<z-m> 0.080</z-m>
+			<y-m>-0.205</y-m>
+			<z-m> 0.090</z-m>
 			<heading-deg>3</heading-deg>
+		</offsets>
+	</model>
+	<model>
+		<name>mfd2</name>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd3.ac</path>
+		<offsets>
+			<x-m> 0.010</x-m>
+			<y-m> 0.000</y-m>
+			<z-m> 0.090</z-m>
 		</offsets>
 	</model>
 	<model>
@@ -15,8 +24,8 @@
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd2.xml</path>
 		<offsets>
 			<x-m> 0.030</x-m>
-			<y-m> 0.200</y-m>
-			<z-m> 0.080</z-m>
+			<y-m> 0.205</y-m>
+			<z-m> 0.090</z-m>
 			<heading-deg>-3</heading-deg>
 		</offsets>
 	</model>

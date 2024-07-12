@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="svg2"
+   width="1024"
+   height="768"
+   viewBox="0 0 1024 768.00001"
+   sodipodi:docname="skBottom.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="1038.7606"
+       y="662.34575"
+       width="160.55995"
+       height="61.974565"
+       id="rect7931" />
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.33333"
+     x="563" y="21" id="SKT">
+     <tspan x="45" y="21" id="SKT0">SKT0</tspan>
+     <tspan x="130" y="21" id="SKT1">SKT1</tspan>
+     <tspan x="215" y="21" id="SKT2">SKT2</tspan>
+     <tspan x="300" y="21" id="SKT3">SKT3</tspan>
+     <tspan x="385" y="21" id="SKT4">SKT4</tspan>
+     <tspan x="470" y="21" id="SKT5">SKT5</tspan>
+     <tspan x="555" y="21" id="SKT6">SKT6</tspan>
+     <tspan x="640" y="21" id="SKT7">SKT7</tspan>
+     <tspan x="725" y="21" id="SKT8">SKT8</tspan>
+     <tspan x="810" y="21" id="SKT9">SKT9</tspan>
+     <tspan x="895" y="21" id="SKT10">SKT10</tspan>
+     <tspan x="980" y="21" id="SKT11">SKT11</tspan>
+  </text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.33333"
+     x="563" y="762" id="SKB">
+     <tspan x="45" y="762" id="SKB0">SKB0</tspan>
+     <tspan x="130" y="762" id="SKB1">SKB1</tspan>
+     <tspan x="215" y="762" id="SKB2">SKB2</tspan>
+     <tspan x="300" y="762" id="SKB3">SKB3</tspan>
+     <tspan x="385" y="762" id="SKB4">SKB4</tspan>
+     <tspan x="470" y="762" id="SKB5">SKB5</tspan>
+     <tspan x="555" y="762" id="SKB6">SKB6</tspan>
+     <tspan x="640" y="762" id="SKB7">SKB7</tspan>
+     <tspan x="725" y="762" id="SKB8">SKB8</tspan>
+     <tspan x="810" y="762" id="SKB9">SKB9</tspan>
+     <tspan x="895" y="762" id="SKB10">SKB10</tspan>
+     <tspan x="980" y="762" id="SKB11">SKB11</tspan>
+  </text>
+
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="SKL">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="50" id="SKL0"><tspan sodipodi:role="line" id="tspan10179">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="131" id="SKL1"><tspan sodipodi:role="line" id="tspan864">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="211" id="SKL2"><tspan sodipodi:role="line" id="tspan860">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="291" id="SKL3"><tspan sodipodi:role="line" id="tspan18115">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="371" id="SKL4"><tspan sodipodi:role="line" id="tspan10179-62">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="451" id="SKL5"><tspan sodipodi:role="line" id="tspan10179-5">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="531" id="SKL6"><tspan sodipodi:role="line" id="tspan10179-6">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="15" y="611" id="SKL7"><tspan sodipodi:role="line" id="tspan10179">7</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="SKR">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="50" id="SKR0"><tspan sodipodi:role="line" id="tspan10179">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="131" id="SKR1"><tspan sodipodi:role="line" id="tspan864">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="211" id="SKR2"><tspan sodipodi:role="line" id="tspan860">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="291" id="SKR3"><tspan sodipodi:role="line" id="tspan18120">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="371" id="SKR4"><tspan sodipodi:role="line" id="tspan10179-62">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="451" id="SKR5"><tspan sodipodi:role="line" id="tspan10179-5">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="531" id="SKR6"><tspan sodipodi:role="line" id="tspan10179-6">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none"
+       x="1000" y="611" id="SKR7"><tspan sodipodi:role="line" id="tspan10179">7</tspan></text>
+  </g>
+</svg>
