@@ -21,24 +21,14 @@
 		<mfd>
 			<file>Aircraft/Su-27/Nasal/MFD/maps/loader.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Framework.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/empty.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/map.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/pfd.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/fuel.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/gear.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/hydraulics.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/oxy.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/refueling.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/elec.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/to.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skND.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skPFD.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skMFD.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skKIS.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/kis.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/mfd1.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/mfd2.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/MFD.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/pfd.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/rwr.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/softkeys.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/MFD.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/pfd.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/rwr.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/softkeys.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/MFD.nas</file>
 		</mfd>
 	</nasal>
 </PropertyList>

@@ -61,7 +61,7 @@ mfdListener = setlistener("/sim/signals/fdm-initialized", func () {
 		"mipmapping": 1
 	});
 	var mfd2Canvas = canvas.new({
-		"name": "MFD1",
+		"name": "MFD2",
 		"size": [1024, 1024],
 		"view": [1024, 768],
 		"mipmapping": 1
@@ -71,8 +71,8 @@ mfdListener = setlistener("/sim/signals/fdm-initialized", func () {
 	mfd1Canvas.addPlacement({"node": "mfd2_screen2"});
 	mfd2Canvas.addPlacement({"node": "mfd2_screen1"});
 	mfd2Canvas.addPlacement({"node": "mfd1_screen2"});
-	MfdInstances[0] = mfd1.new(mfd1Canvas.createGroup(), 0);
-	MfdInstances[1] = mfd2.new(mfd2Canvas.createGroup(), 0);
+	MfdInstances[0] = mfd1.new(mfd1Canvas.createGroup());
+	MfdInstances[1] = mfd2.new(mfd2Canvas.createGroup());
 
 	removelistener(mfdListener);
 });

@@ -1,7 +1,7 @@
 var mfd1 = {
 	new: func(group)
 	{
-		var m = { parents: [mfd1, Device.new(0)] };
+		var m = { parents: [mfd1, Device.new()] };
 
 		append(m.Pages, canvas_map.new(group.createChild('group')));
 

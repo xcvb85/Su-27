@@ -1,16 +1,16 @@
-var Mfd3Instance = 0;
-var mfd3Listener = 0;
+var smfdInstance = 0;
+var smfdListener = 0;
 
-var mfd3 = {
-	new: func(group, instance)
+var smfd = {
+	new: func(group)
 	{
-		var m = { parents: [mfd2, Device.new(instance)] };
+		var m = { parents: [smfd, Device.new()] };
 
 		# create pages
-		append(m.Pages, canvas_rwr.new(group.createChild('group')));
-		append(m.Pages, canvas_pfd.new(group.createChild('group')));
+		append(m.Pages, canvas_srwr.new(group.createChild('group')));
+		append(m.Pages, canvas_spfd.new(group.createChild('group')));
 
-		m.SkInstance = canvas_softkeys.new(group.createChild('group'));
+		m.SkInstance = canvas_ssoftkeys.new(group.createChild('group'));
 
 		# create menus
 		append(m.Menus, SkMenu.new(0, m, ""));
@@ -20,7 +20,7 @@ var mfd3 = {
 		m.Menus[0].AddItem(SkPageActivateItem.new(1, m, "ПИЛ", "pilot flying display", 1));
 
 		m.ActivateMenu(0);
-		m.ActivatePage(0);
+		m.ActivatePage(0,0);
 		m.Update();
 		m.Timer = maketimer(0.1, m, m.Update);
 		m.Timer.start();
@@ -28,7 +28,7 @@ var mfd3 = {
 	},
 	Update: func()
 	{
-		me.PFD.update();
+		me.Pages[me.ActivePage].update();
 	},
 	MfdBtClick: func(location = 0, input = -1)
 	{
@@ -36,21 +36,21 @@ var mfd3 = {
 	}
 };
 
-var mfdBtClick = func(index = 0, location = 0, input = -1) {
-	MfdInstances[index].MfdBtClick(location, input);
+var smfdBtClick = func(index = 0, location = 0, input = -1) {
+	smfdInstance.MfdBtClick(location, input);
 }
 
-mfdListener = setlistener("/sim/signals/fdm-initialized", func () {
+smfdListener = setlistener("/sim/signals/fdm-initialized", func () {
 
-	var mfd3Canvas = canvas.new({
-		"name": "MFD3",
+	var smfdCanvas = canvas.new({
+		"name": "SMFD",
 		"size": [1024, 1024],
 		"view": [512, 768],
 		"mipmapping": 1
 	});
 
-	mfd3Canvas.addPlacement({"node": "mfd3_screen"});
-	Mfd3Instance = mfd3.new(mfd3Canvas.createGroup(), 0);
+	smfdCanvas.addPlacement({"node": "mfd3_screen"});
+	smfdInstance = smfd.new(smfdCanvas.createGroup());
 
-	removelistener(mfdListener);
+	removelistener(smfdListener);
 });

@@ -36,7 +36,7 @@
 		<path>Aircraft/Su-27/Models/Stores/Su-27-Stores.xml</path>
 	</model>
     <!-- Pilot -->
-	<model>
+<!--	<model>
 		<path>Aircraft/Su-27/Models/Pilot/pilot.xml</path>
 		<offsets>
 			<x-m>5.25</x-m>
@@ -52,7 +52,7 @@
                 <property>controls/ejected</property>
 			</not>
 		</condition>
-	</model>
+	</model>-->
 
  <animation>
     <type>material</type>    

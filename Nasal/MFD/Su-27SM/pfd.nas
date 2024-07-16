@@ -1,16 +1,16 @@
-var canvas_spfd = {
+var canvas_pfd = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_spfd] };
+		var m = { parents: [canvas_pfd] };
 		
 		var font_mapper = func(family, weight)
 		{
 			if(family == "'Liberation Sans'" and weight == "normal") {
-				return "Helvetica.txf";
+				return "LiberationFonts/LiberationSans-Regular.ttf";
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/pfd.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM/pfd.svg", {'font-mapper': font_mapper});
 		var svg_keys = ["horizon", "aircraft", "asiNeedle", "compass",
 						"lb0", "lb3", "lb6", "lb9", "lb12", "lb15", "lb18",
 						"lb21", "lb24", "lb27", "lb30", "lb33",
@@ -19,7 +19,7 @@ var canvas_spfd = {
 			m[key] = canvasGroup.getElementById(key);
 		}
 		m.h_trans = m.horizon.createTransform();
-		m.horizon.set("clip", "rect(80, 419, 410, 121)");# top,right,bottom,left
+		m.horizon.set("clip", "rect(10, 696, 420, 328)");# top,right,bottom,left
 
 		m.ias = props.globals.getNode("instrumentation/airspeed-indicator/indicated-speed-kt");
 		m.alt = props.globals.getNode("instrumentation/altimeter/indicated-altitude-ft");

@@ -11,7 +11,7 @@ var PageEnum = {
 var canvas_kis = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_kis, Device.new(1)], SubPages: [] };
+		var m = { parents: [canvas_kis, Device.new()], SubPages: [] };
 		
 		var font_mapper = func(family, weight)
 		{

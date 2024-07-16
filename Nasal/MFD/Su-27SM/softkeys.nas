@@ -1,7 +1,7 @@
-var canvas_ssoftkeys = {
+var canvas_softkeys = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_ssoftkeys], softkeys: []};
+		var m = { parents: [canvas_softkeys], softkeys: []};
 		
 		var font_mapper = func(family, weight)
 		{
@@ -10,7 +10,7 @@ var canvas_ssoftkeys = {
 			}
 		};
 
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/softkeys.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM/softkeys.svg", {'font-mapper': font_mapper});
 
 		append(m.softkeys, canvasGroup.getElementById("SK0"));
 		append(m.softkeys, canvasGroup.getElementById("SK1"));

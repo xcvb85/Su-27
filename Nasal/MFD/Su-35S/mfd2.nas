@@ -4,9 +4,9 @@ var MenuEnum = {
 };
 
 var mfd2 = {
-	new: func(group, instance)
+	new: func(group)
 	{
-		var m = { parents: [mfd2, Device.new(instance)] };
+		var m = { parents: [mfd2, Device.new()] };
 
 		# create pages
 		append(m.Pages, canvas_to.new(group.createChild('group')));

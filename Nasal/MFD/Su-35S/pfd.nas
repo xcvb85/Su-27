@@ -1,7 +1,7 @@
 var canvas_pfd = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_pfd, Device.new(1)] };
+		var m = { parents: [canvas_pfd, Device.new()] };
 		
 		var font_mapper = func(family, weight)
 		{
