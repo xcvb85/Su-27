@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<model>
+		<name>Su-27</name>
+		<path>Aircraft/Su-27/Models/Su-27-Model-Common.xml</path>
+	</model>
+	<model>
+		<name>cockpit</name>
+		<path>Aircraft/Su-27/Models/Su-35-Cockpit/Su-35-Cockpit.xml</path>
+	</model>
+</PropertyList>

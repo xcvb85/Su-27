@@ -2,9 +2,9 @@
 <PropertyList include="Su-27-Common.xml">
 	<sim>
 		<description>Sukhoi Su-35S</description>
-		<variant-of>Su-27S</variant-of>
-		<variant-id type="int">3</variant-id>
-		<long-description>The Su-35S is the modernized version of the Su-27 with glass cockpit and thrust vectoring.</long-description>
+		<variant-of>Su-27SK</variant-of>
+		<variant-id type="int">4</variant-id>
+		<long-description>The Su-35S is the latest version of the Su-27 with advanced avionics and thrust vectoring.</long-description>
 		<status>beta</status>
 		<rating>
 			<FDM type="int">3</FDM>
@@ -14,31 +14,31 @@
 		</rating>
 		<menubar include="gui/Menubar-Su-35.xml"/>
 		<model>
-			<path>Aircraft/Su-27/Models/Su-35-Model.xml</path>
+			<path>Aircraft/Su-27/Models/Su-35S-Model.xml</path>
 		</model>
 	</sim>
 	<nasal>
 		<mfd>
 			<file>Aircraft/Su-27/Nasal/MFD/maps/loader.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Framework.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/empty.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/map.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/pfd.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/fuel.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/gear.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/hydraulics.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/oxy.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/refueling.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/elec.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/to.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/skND.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/skPFD.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/skMFD.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/skKIS.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/kis.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/mfd1.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/mfd2.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/MFD.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/empty.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/map.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/pfd.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/fuel.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/gear.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/hydraulics.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/oxy.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/refueling.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/elec.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/to.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skND.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skPFD.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skMFD.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/skKIS.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/kis.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/mfd1.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/mfd2.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-35S/MFD.nas</file>
 		</mfd>
 	</nasal>
 </PropertyList>
