@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList include="Su-27-Common.xml">
 	<sim>
-		<description>Sukhoi Su-33</description>
-		<variant-of>Su-27SK</variant-of>
-		<variant-id type="int">2</variant-id>
-		<long-description>The Su-33 is the carrier version of the Su-27.</long-description>
+		<description>Sukhoi Su-27SK</description>
+		<variant-id type="int">1</variant-id>
+		<long-description>The Su-27SK is the export variant of the Su-27.</long-description>
 		<status>beta</status>
 		<rating>
 			<FDM type="int">3</FDM>
@@ -12,9 +11,9 @@
 			<cockpit type="int">2</cockpit>
 			<model type="int">4</model>
 		</rating>
-		<menubar include="gui/Menubar-Su-33.xml"/>
+		<menubar include="gui/Menubar-Su-27.xml"/>
 		<model>
-			<path>Aircraft/Su-27/Models/Su-33-Model.xml</path>
+			<path>Aircraft/Su-27/Models/Su-27SK-Model.xml</path>
 		</model>
 	</sim>
 </PropertyList>

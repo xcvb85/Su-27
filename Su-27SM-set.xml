@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList include="Su-27-Common.xml">
+	<sim>
+		<description>Sukhoi Su-27SM</description>
+		<variant-of>Su-27SK</variant-of>
+		<variant-id type="int">3</variant-id>
+		<long-description>The Su-27SM is the improved version of the Su-27 with glass cockpit and better weapon support.</long-description>
+		<status>beta</status>
+		<rating>
+			<FDM type="int">3</FDM>
+			<systems type="int">1</systems>
+			<cockpit type="int">2</cockpit>
+			<model type="int">4</model>
+		</rating>
+		<menubar include="gui/Menubar-Su-27.xml"/>
+		<model>
+			<path>Aircraft/Su-27/Models/Su-27SM-Model.xml</path>
+		</model>
+	</sim>
+	<nasal>
+		<mfd>
+			<file>Aircraft/Su-27/Nasal/MFD/maps/loader.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Framework.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/pfd.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/to.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/rwr.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/softkeys.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/MFD.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/pfd.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/rwr.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/softkeys.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/MFD.nas</file>
+		</mfd>
+	</nasal>
+</PropertyList>

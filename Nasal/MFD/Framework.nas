@@ -145,7 +145,7 @@ var SkMenu = {
 };
 
 var Device = {
-	new: func(instance) {
+	new: func {
 		var m = {
 			parents: [Device],
 			SkInstance: {},
@@ -157,7 +157,6 @@ var Device = {
 			ActiveMenu: 0, # to know where button clicks must go
 			ActivePage: 0, # used for softkey decoration
 			SkFrameMenu: 0,
-			InstanceId: instance,
 			KnobMode: 1, # knob can have different functionalities
 			Tmp: 0,
 		};

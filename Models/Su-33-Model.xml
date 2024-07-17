@@ -13,7 +13,7 @@
 	</effect>
 	<model>
 		<name>cockpit</name>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27-Cockpit.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SK-Cockpit.xml</path>
 	</model>
 	<model>
 		<name>Gear</name>
