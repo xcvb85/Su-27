@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <PropertyList>
-
   <path>fighter_default.ac</path>
-  
   <animation>
-        <type>range</type>
-        <min-m>0</min-m>
-        <max-m>300</max-m>
-    </animation>
-
+    <type>rotate</type>
+    <object-name>pilot_head</object-name>
+    <object-name>pilot_helmet</object-name>
+    <object-name>pilot_visor</object-name>
+    <expression>
+      <table>
+        <property>sim/current-view/heading-offset-deg</property>
+        <entry><ind> 90</ind><dep>-90</dep></entry>
+        <entry><ind>270</ind><dep> 90</dep></entry>
+      </table>
+    </expression>
+    <center>
+      <x-m>0.07</x-m>
+      <y-m>0.00</y-m>
+      <z-m>0.00</z-m>
+    </center>
+    <axis>
+      <x>0.0</x>
+      <y>0.0</y>
+      <z>1.0</z>
+    </axis>
+  </animation>
+  <animation>
+    <type>rotate</type>
+    <object-name>pilot_head</object-name>
+    <object-name>pilot_helmet</object-name>
+    <object-name>pilot_visor</object-name>
+    <expression>
+      <table>
+        <property>sim/current-view/pitch-offset-deg</property>
+        <entry><ind>-15</ind><dep>-15</dep></entry>
+        <entry><ind> 45</ind><dep> 45</dep></entry>
+      </table>
+    </expression>
+    <center>
+      <x-m>0.07</x-m>
+      <y-m>0.00</y-m>
+      <z-m>0.36</z-m>
+    </center>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+  </animation>
+  <animation>
+    <type>rotate</type>
+    <object-name>pilot_visor</object-name>
+    <expression>
+      <table>
+        <property>sim/current-view/heading-offset-deg</property>
+        <entry><ind>130</ind><dep>60</dep></entry>
+        <entry><ind>140</ind><dep> 0</dep></entry>
+        <entry><ind>220</ind><dep> 0</dep></entry>
+        <entry><ind>230</ind><dep>60</dep></entry>
+      </table>
+    </expression>
+    <center>
+      <x-m>0.00</x-m>
+      <y-m>0.00</y-m>
+      <z-m>0.50</z-m>
+    </center>
+    <axis>
+      <x>0.0</x>
+      <y>1.0</y>
+      <z>0.0</z>
+    </axis>
+  </animation>
 </PropertyList>
-
