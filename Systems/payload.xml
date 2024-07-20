@@ -39,10 +39,50 @@
 		<MAW-bearing type="double">0</MAW-bearing>
 		<MAW-active type="bool">false</MAW-active>
 		<spike type="bool">false</spike>
+		<kh-29t>
+			<type-id type="int">0</type-id>
+			<short-name type="string">Kh-29T</short-name>
+			<long-name type="string">Kh-29T Kedge</long-name>
+			<vol-search type="double">0.00</vol-search>
+			<vol-track type="double">1.00</vol-track>
+			<guidance type="string">vision</guidance>
+			<navigation type="string">APN</navigation>
+			<all-aspect type="bool">true</all-aspect>
+			<max-fire-range-nm type="double">12</max-fire-range-nm>
+			<FCS-field-deg type="int">25</FCS-field-deg>
+			<seeker-field-deg type="int">180</seeker-field-deg>
+			<seeker-angular-speed-dps type="double">30</seeker-angular-speed-dps>
+			<max-g type="int">25</max-g>
+			<max-launch-g type="int">7</max-launch-g>
+			<thrust-lbf-stage-1 type="double">1200</thrust-lbf-stage-1>
+			<thrust-lbf-stage-2 type="double">0.0</thrust-lbf-stage-2>
+			<stage-1-duration-sec type="double">40</stage-1-duration-sec>
+			<stage-2-duration-sec type="double">0.0</stage-2-duration-sec>
+			<weight-launch-lbs type="double">462</weight-launch-lbs>
+			<weight-warhead-lbs type="double">126</weight-warhead-lbs>
+			<weight-fuel-lbm type="double"> 90 </weight-fuel-lbm>
+			<drag-coeff type="double">0.14</drag-coeff>
+			<cross-section-sqft type="double">3.14</cross-section-sqft>
+			<arming-time-sec type="double">1.0</arming-time-sec>
+			<min-speed-for-guiding-mach type="double">0.5</min-speed-for-guiding-mach>
+			<self-destruct-time-sec type="double">55</self-destruct-time-sec>
+			<loft-altitude type="int">0</loft-altitude>
+			<min-fire-range-nm type="double">0.5</min-fire-range-nm>
+			<rail type="bool">true</rail>
+			<rail-length-m type="double">2.373</rail-length-m>
+			<rail-point-forward type="bool">true</rail-point-forward>
+			<max-report-distance type="double">65</max-report-distance>
+			<class type="string">MGP</class>
+			<fire-msg type="string">Rifle</fire-msg>
+			<hit-everything-nearby type="bool">true</hit-everything-nearby>
+			<ready-time type="double">180</ready-time>
+			<requires-power-on type="bool">true</requires-power-on>
+			<power-on-battery-time type="double">2700</power-on-battery-time>
+		</kh-29t>
 		<kh-31p>
 			<type-id type="int">2</type-id>
 			<short-name type="string">kh31p</short-name>
-			<long-name type="string">Kh-31P</long-name>
+			<long-name type="string">Kh-31P Krypton</long-name>
 			<vol-search type="double">0.00</vol-search>
 			<vol-track type="double">1.00</vol-track>
 			<guidance type="string">radiation</guidance>
@@ -83,6 +123,8 @@
 		<r-27r1>
 			<!--detection and firing-->
 			<type-id type="int">75</type-id>
+			<short-name type="string">R-27R1</short-name>
+			<long-name type="string">R-27R1 Alamo</long-name>
 			<max-fire-range-nm type="double">39.41</max-fire-range-nm> <!-- max range that the FCS allows firing -->
 			<min-fire-range-nm type="double">1.0</min-fire-range-nm> <!-- it wont get solid lock before the target has this range -->
 			<FCS-field-deg type="int">35</FCS-field-deg> <!-- fire control system total field of view diameter for when searching and getting lock before launch. -->
@@ -145,6 +187,8 @@
 		<r-27t1>
 			<!--detection and firing-->
 			<type-id type="int">76</type-id>
+			<short-name type="string">R-27T1</short-name>
+			<long-name type="string">R-27T1 Alamo</long-name>
 			<max-fire-range-nm type="double">39.41</max-fire-range-nm> <!-- max range that the FCS allows firing -->
 			<min-fire-range-nm type="double">0.01</min-fire-range-nm> <!-- it wont get solid lock before the target has this range -->
 			<FCS-field-deg type="int">35</FCS-field-deg> <!-- fire control system total field of view diameter for when searching and getting lock before launch. -->
@@ -207,7 +251,7 @@
 		<r-37m>
 			<type-id type="int">53</type-id>
 			<short-name type="string">R-37M</short-name>
-			<long-name type="string">R-37M</long-name>
+			<long-name type="string">R-37M Axehead Izdeliye 610M</long-name>
 			<vol-search type="double">0.0</vol-search>
 			<vol-track type="double">0.20</vol-track>
 			<guidance source="authentic" type="string">semi-radar</guidance>
@@ -244,7 +288,7 @@
 		<r-73>
 			<type-id type="int">82</type-id>
 			<short-name type="string">R-73</short-name>
-			<long-name type="string">R-73 Archer Isdelije 750</long-name>
+			<long-name type="string">R-73 Archer Izdeliye 750</long-name>
 			<vol-search type="double">0.0</vol-search>
 			<vol-track type="double">1.0</vol-track>
 			<guidance type="string">heat</guidance> <!-- heat, radar or semi-radar -->
@@ -295,7 +339,7 @@
 		<r-77>
 			<type-id type="int">83</type-id>
 			<short-name type="string">R-77</short-name>
-			<long-name type="string">R-77 Adder Isdelije 170</long-name>
+			<long-name type="string">R-77 Adder Izdeliye 170</long-name>
 			<guidance type="string">sample</guidance>
 			<vol-search type="double">0.00</vol-search>
 			<vol-track type="double">1.00</vol-track>
