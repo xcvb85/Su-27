@@ -10,6 +10,7 @@ var mfd = {
 		append(m.Pages, canvas_pfd.new(group.createChild('group')));
 		append(m.Pages, canvas_to.new(group.createChild('group')));
 		append(m.Pages, canvas_rwr.new(group.createChild('group')));
+		append(m.Pages, canvas_wpn.new(group.createChild('group')));
 
 		m.SkInstance = canvas_softkeys.new(group.createChild('group'));
 
@@ -63,6 +64,6 @@ mfdListener = setlistener("/sim/signals/fdm-initialized", func () {
 	mfd2Canvas.addPlacement({"node": "mfd2_screen1"});
 	mfdInstances[0] = mfd.new(mfd1Canvas.createGroup());
 	mfdInstances[1] = mfd.new(mfd2Canvas.createGroup());
-	mfdInstances[1].MfdBtClick(1);
+	mfdInstances[1].MfdBtClick(3);
 	removelistener(mfdListener);
 });
