@@ -14,7 +14,7 @@
 		</rating>
 		<menubar include="gui/Menubar-Su-27.xml"/>
 		<model>
-			<path>Aircraft/Su-27/Models/Su-27SM-Model.xml</path>
+			<path>Aircraft/Su-27/Models/Su-27SM.xml</path>
 		</model>
 	</sim>
 	<nasal>

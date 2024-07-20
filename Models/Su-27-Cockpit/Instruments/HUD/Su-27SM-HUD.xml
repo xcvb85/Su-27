@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
-	<path>hud.ac</path>
+	<path>Su-27SM-HUD.ac</path>
 	<effect>
 		<object-name>HUD_Screen</object-name>
 		<inherits-from>Aircraft/Su-27/Models/Effects/hud</inherits-from>

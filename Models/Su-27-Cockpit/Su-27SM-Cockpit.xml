@@ -14,7 +14,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HUD/HUD.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HUD/Su-27SM-HUD.xml</path>
 		<offsets>
 			<x-m>4.70</x-m>
 			<y-m>0.01</y-m>

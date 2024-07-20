@@ -14,7 +14,7 @@
 		</rating>
 		<menubar include="gui/Menubar-Su-33.xml"/>
 		<model>
-			<path>Aircraft/Su-27/Models/Su-33-Model.xml</path>
+			<path>Aircraft/Su-27/Models/Su-33.xml</path>
 		</model>
 	</sim>
 </PropertyList>

@@ -2,16 +2,16 @@
 <svg
    version="1.1"
    id="svg2"
-   width="512"
+   width="1024"
    height="768"
-   viewBox="0 0 512 768.00001"
+   viewBox="0 0 1024 768.00001"
    sodipodi:docname="softkeys.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview8"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -21,33 +21,43 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.0194016"
-     inkscape:cx="530.70352"
-     inkscape:cy="301.15708"
+     inkscape:cx="530.7035"
+     inkscape:cy="301.15707"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
-  <defs
-     id="defs6">
-    <rect
+     inkscape:current-layer="svg2" /><defs
+     id="defs6"><rect
        x="1038.7606"
        y="662.34576"
        width="160.55995"
        height="61.974564"
-       id="rect7931" />
-  </defs>
-  <text
+       id="rect7931" /></defs><text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1.33333"
-     x="563"
-     y="21"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1"
+     x="0"
+     y="0"
      id="SKT"><tspan
-       x="300"
-       y="21"
-       id="SK0">SK0</tspan><tspan
+       x="180"
+       y="24"
+       id="SKT0">SKT0</tspan><tspan
+       x="290"
+       y="24"
+       id="SKT1">SKT1</tspan><tspan
        x="400"
-       y="21"
-       id="SK1">SK1</tspan></text>
-</svg>
+       y="24"
+       id="SKT2">SKT2</tspan><tspan
+       x="510"
+       y="24"
+       id="SKT3">SKT3</tspan><tspan
+       x="620"
+       y="24"
+       id="SKT4">SKT4</tspan><tspan
+       x="730"
+       y="24"
+       id="SKT5">SKT5</tspan><tspan
+       x="840"
+       y="24"
+       id="SKT6">SKT6</tspan></text></svg>

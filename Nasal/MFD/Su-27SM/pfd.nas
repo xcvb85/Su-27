@@ -19,7 +19,7 @@ var canvas_pfd = {
 			m[key] = canvasGroup.getElementById(key);
 		}
 		m.h_trans = m.horizon.createTransform();
-		m.horizon.set("clip", "rect(10, 696, 420, 328)");# top,right,bottom,left
+		m.horizon.set("clip", "rect(10, 695, 420, 329)");# top,right,bottom,left
 
 		m.ias = props.globals.getNode("instrumentation/airspeed-indicator/indicated-speed-kt");
 		m.alt = props.globals.getNode("instrumentation/altimeter/indicated-altitude-ft");
