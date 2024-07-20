@@ -12,8 +12,9 @@ var canvas_softkeys = {
 
 		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM/softkeys.svg", {'font-mapper': font_mapper});
 
-		append(m.softkeys, canvasGroup.getElementById("SK0"));
-		append(m.softkeys, canvasGroup.getElementById("SK1"));
+		for(var i=0; i<7; i+=1) {
+			append(m.softkeys, canvasGroup.getElementById("SKT"~i));
+		}
 
 		m.path = canvasGroup.createChild("path").setStrokeLineWidth(3).set("stroke", "rgba(0,255,0,1)");
 		return m;

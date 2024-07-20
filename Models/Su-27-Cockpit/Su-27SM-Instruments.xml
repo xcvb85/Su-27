@@ -70,7 +70,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/ADI/ADI2.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/ADI/Su-27SM-ADI.xml</path>
 		<offsets>
 			<x-m> 0.015</x-m>
 			<y-m>-0.050</y-m>
