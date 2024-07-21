@@ -82,7 +82,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
+		<path>Aircraft/Su-27/Models/CockpitParts/EmergencyGearsHandle/EmergencyGearsHandle.xml</path>
 		<offsets>
 			<x-m> 4.62</x-m>
 			<y-m>-0.28</y-m>
@@ -91,7 +91,7 @@
 		</offsets>
 	</model>
 <!--	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Emergency-brake/emergency-brake.xml</path>
+		<path>Aircraft/Su-27/Models/CockpitParts/Emergency-brake/emergency-brake.xml</path>
 		<offsets>
 			<x-m>4.50</x-m>
 			<y-m>-0.275</y-m>
@@ -101,7 +101,7 @@
 		</offsets>
 	</model>-->
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Stick/Stick.xml</path>
+		<path>Aircraft/Su-27/Models/CockpitParts/Stick/Stick.xml</path>
 		<offsets>
 			<x-m>4.9</x-m>
 			<y-m>0.0</y-m>
@@ -110,7 +110,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Throttle/Throttle.xml</path>
+		<path>Aircraft/Su-27/Models/CockpitParts/Throttle/Throttle.xml</path>
 		<offsets>
 			<x-m>4.974</x-m>
 			<y-m>-0.466</y-m>
@@ -121,7 +121,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Controls/Pedals/Pedals.xml</path>
+		<path>Aircraft/Su-27/Models/CockpitParts/Pedals/Pedals.xml</path>
 		<offsets>
 			<x-m>4.5</x-m>
 			<y-m>0.0</y-m>
