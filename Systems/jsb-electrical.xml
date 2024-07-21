@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <system name="electric">
-    <property value="0">electric/switches/battery</property>
+    <property value="0">electric/switches/battery1</property>
+    <property value="0">electric/switches/battery2</property>
     <property value="0">electric/switches/dc1-gen</property>
     <property value="0">electric/switches/dc2-gen</property>
-    <property value="0">electric/switches/ac1-gen</property>
-    <property value="0">electric/switches/ac2-gen</property>
+    <property value="0">electric/switches/inverter1</property>
+    <property value="0">electric/switches/inverter2</property>
     
     <property value="0">electric/switches/floodlight</property>
     <property value="0">electric/switches/instrument-lights</property>
     <property value="0">electric/switches/label-lights</property>
     <property value="0">electric/switches/landinglight</property>
-    <property value="0">electric/switches/radio</property>
+    <property value="0">electric/switches/radio-vhf</property>
+    <property value="0">electric/switches/radio-hf</property>
+    <property value="0">electric/switches/ekran</property>
     <property value="0">electric/switches/ap</property>
-    <property value="0">electric/switches/ark</property>
-    <property value="0">electric/switches/rsbn</property>
     <property value="0">electric/switches/instruments</property>
     
     <property value="0">electric/switches/cannon</property>
@@ -23,14 +24,23 @@
     <property value="0">electric/switches/pump</property>
     
     <channel name="sources">
-        <fcs_function name="electric/sources/battery">
+        <fcs_function name="electric/sources/battery1">
             <function>
                 <product>
-                    <property>electric/switches/battery</property>
+                    <property>electric/switches/battery1</property>
                     <value>24</value>
                 </product>
             </function>
-            <output>electric/sources/battery</output>
+            <output>electric/sources/battery1</output>
+        </fcs_function>
+        <fcs_function name="electric/sources/battery2">
+            <function>
+                <product>
+                    <property>electric/switches/battery2</property>
+                    <value>24</value>
+                </product>
+            </function>
+            <output>electric/sources/battery2</output>
         </fcs_function>
         <fcs_function name="electric/sources/dc1-gen">
             <function>
@@ -64,44 +74,45 @@
             </function>
             <output>electric/sources/dc2-gen</output>
         </fcs_function>
-        <fcs_function name="electric/sources/ac1-gen">
+        <fcs_function name="electric/sources/inverter1">
             <function>
                 <product>
-                    <property>electric/switches/ac1-gen</property>
+                    <property>electric/switches/inverter1</property>
                     <table>
-                        <independentVar lookup="row">propulsion/engine[0]/n1</independentVar>
+                        <independentVar lookup="row">electric/sources/output-dc</independentVar>
                         <tableData>
-                            0.0	 0.0
-                            30.0	112.0
-                            100.0   116.0
+                             0.0	  0.0
+                            24.0	112.0
+                            28.0    116.0
                         </tableData>
                     </table>
                 </product>
             </function>
-            <output>electric/sources/ac1-gen</output>
+            <output>electric/sources/inverter1</output>
         </fcs_function>
-        <fcs_function name="electric/sources/ac2-gen">
+        <fcs_function name="electric/sources/inverter2">
             <function>
                 <product>
-                    <property>electric/switches/ac2-gen</property>
+                    <property>electric/switches/inverter2</property>
                     <table>
-                        <independentVar lookup="row">propulsion/engine[1]/n1</independentVar>
+                        <independentVar lookup="row">electric/sources/output-dc</independentVar>
                         <tableData>
-                            0.0	 0.0
-                            30.0	112.0
-                            100.0   116.0
+                             0.0	  0.0
+                            24.0	112.0
+                            28.0    116.0
                         </tableData>
                     </table>
                 </product>
             </function>
-            <output>electric/sources/ac2-gen</output>
+            <output>electric/sources/inverter2</output>
         </fcs_function>
         <fcs_function name="electric/sources/output-dc">
             <function>
                 <max>
                     <property>electric/sources/dc1-gen</property>
                     <property>electric/sources/dc2-gen</property>
-                    <property>electric/sources/battery</property>
+                    <property>electric/sources/battery1</property>
+                    <property>electric/sources/battery2</property>
                 </max>
             </function>
             <output>electric/sources/output-dc</output>
@@ -109,8 +120,8 @@
         <fcs_function name="electric/sources/output-ac">
             <function>
                 <max>
-                    <property>electric/sources/ac1-gen</property>
-                    <property>electric/sources/ac2-gen</property>
+                    <property>electric/sources/inverter1</property>
+                    <property>electric/sources/inverter2</property>
                 </max>
             </function>
             <output>electric/sources/output-ac</output>
@@ -151,28 +162,28 @@
                 electric/switches/landinglight == 1
             </test>
         </switch>
-        <switch name="electric/output/radio">
+        <switch name="electric/output/radio-vhf">
             <default value="0"/>
             <test logic="AND" value="electric/sources/output-dc">
-                electric/switches/radio == 1
+                electric/switches/radio-vhf == 1
+            </test>
+        </switch>
+        <switch name="electric/output/radio-hf">
+            <default value="0"/>
+            <test logic="AND" value="electric/sources/output-dc">
+                electric/switches/radio-hf == 1
+            </test>
+        </switch>
+        <switch name="electric/output/ekran">
+            <default value="0"/>
+            <test logic="AND" value="electric/sources/output-dc">
+                electric/switches/ekran == 1
             </test>
         </switch>
         <switch name="electric/output/ap">
             <default value="0"/>
             <test logic="AND" value="electric/sources/output-dc">
                 electric/switches/ap == 1
-            </test>
-        </switch>
-        <switch name="electric/output/ark">
-            <default value="0"/>
-            <test logic="AND" value="electric/sources/output-dc">
-                electric/switches/ark == 1
-            </test>
-        </switch>
-        <switch name="electric/output/rsbn">
-            <default value="0"/>
-            <test logic="AND" value="electric/sources/output-dc">
-                electric/switches/rsbn == 1
             </test>
         </switch>
         <switch name="electric/output/instruments">

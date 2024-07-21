@@ -34,7 +34,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Indicators.xml</path>
+		<path>Instruments.xml</path>
 		<offsets>
 			<x-m>0.100</x-m>
 			<y-m>0.030</y-m>
