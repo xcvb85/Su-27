@@ -8,17 +8,18 @@
     <property value="0">electric/switches/inverter1</property>
     <property value="0">electric/switches/inverter2</property>
     
+    <property value="0">electric/switches/radio-vhf</property>
+    <property value="0">electric/switches/radio-hf</property>
+    <property value="0">electric/switches/ekran</property>
+    <property value="0">electric/switches/instruments</property>
+    <property value="0">electric/switches/weapons</property>
+
     <property value="0">electric/switches/floodlight</property>
     <property value="0">electric/switches/instrument-lights</property>
     <property value="0">electric/switches/label-lights</property>
     <property value="0">electric/switches/landinglight</property>
-    <property value="0">electric/switches/radio-vhf</property>
-    <property value="0">electric/switches/radio-hf</property>
-    <property value="0">electric/switches/ekran</property>
-    <property value="0">electric/switches/ap</property>
-    <property value="0">electric/switches/instruments</property>
-    
-    <property value="0">electric/switches/cannon</property>
+
+    <property value="0">electric/switches/ap</property>    
     <property value="0">electric/switches/gunsight</property>
     <property value="0">electric/switches/starterunit</property>
     <property value="0">electric/switches/pump</property>
@@ -192,10 +193,10 @@
                 electric/switches/instruments == 1
             </test>
         </switch>
-        <switch name="electric/output/cannon">
+        <switch name="electric/output/weapons">
             <default value="0"/>
             <test logic="AND" value="electric/sources/output-ac">
-                electric/switches/cannon == 1
+                electric/switches/weapons == 1
             </test>
         </switch>
         <switch name="electric/output/gunsight">

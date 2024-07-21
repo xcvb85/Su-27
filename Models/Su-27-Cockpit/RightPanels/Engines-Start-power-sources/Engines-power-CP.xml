@@ -2,6 +2,14 @@
 <PropertyList>
 	<path>Engines-Power-CP.ac</path>
 	<model>
+		<path>Aircraft/Su-27/Models/CockpitParts/Switches/switch3.ac</path>
+		<offsets>
+			<x-m>0.033</x-m>
+			<y-m>0.126</y-m>
+			<z-m>0.010</z-m>
+		</offsets>
+	</model>
+	<model>
 		<path>Battery1.xml</path>
 		<offsets>
 			<x-m>0.033</x-m>

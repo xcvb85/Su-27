@@ -42,7 +42,7 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/CockpitParts/Switches/switch1.ac</path>
+		<path>Weapons.xml</path>
 		<offsets>
 			<x-m>0.129</x-m>
 			<y-m>0.033</y-m>
