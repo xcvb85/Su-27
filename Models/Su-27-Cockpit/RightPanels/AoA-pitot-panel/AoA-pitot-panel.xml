@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
-	<name>AoA-pitot-panel</name>
 	<path>AoA-pitot-panel.ac</path>
+	<model>
+		<path>Aircraft/Su-27/Models/CockpitParts/Switches/switch2.ac</path>
+		<offsets>
+			<x-m>0.051</x-m>
+			<y-m>0.158</y-m>
+			<z-m>0.002</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Aircraft/Su-27/Models/CockpitParts/Switches/switch2.ac</path>
+		<offsets>
+			<x-m>0.051</x-m>
+			<y-m>0.201</y-m>
+			<z-m>0.002</z-m>
+		</offsets>
+	</model>
 </PropertyList>
