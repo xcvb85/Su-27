@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>Aircraft/Su-27/Models/CockpitParts/Switches/switch1.ac</path>
+	<animation>
+		<type>pick</type>
+		<object-name>switch</object-name>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<tooltip-id>weapons-bug</tooltip-id>
+				<label>Weapons %s</label>
+				<property>fdm/jsbsim/electric/switches/weapons</property>
+				<mapping>nasal</mapping>
+				<script>
+					var modes = ['OFF', 'ON'];
+					return modes[arg[0]];
+				</script>
+			</binding>
+		</hovered>
+		<visible>true</visible>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>property-toggle</command>
+				<property>fdm/jsbsim/electric/switches/weapons</property>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>switch</object-name>
+		<property>fdm/jsbsim/electric/switches/weapons</property>
+		<interpolation>
+			<entry><ind>0.0</ind><dep>-25</dep></entry>
+			<entry><ind>1.0</ind><dep>25</dep></entry>
+		</interpolation>
+		<axis>
+			<x>-1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+</PropertyList>
