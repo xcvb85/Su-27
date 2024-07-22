@@ -11,6 +11,7 @@
     <property value="0">electric/switches/radio-vhf</property>
     <property value="0">electric/switches/radio-hf</property>
     <property value="0">electric/switches/ekran</property>
+    <property value="0">electric/switches/iff</property>
     <property value="0">electric/switches/instruments</property>
     <property value="0">electric/switches/weapons</property>
 
@@ -20,7 +21,6 @@
     <property value="0">electric/switches/landinglight</property>
 
     <property value="0">electric/switches/ap</property>    
-    <property value="0">electric/switches/gunsight</property>
     <property value="0">electric/switches/starterunit</property>
     <property value="0">electric/switches/pump</property>
     
@@ -163,6 +163,12 @@
                 electric/switches/landinglight == 1
             </test>
         </switch>
+        <switch name="electric/output/ekran">
+            <default value="0"/>
+            <test logic="AND" value="electric/sources/output-dc">
+                electric/switches/ekran == 1
+            </test>
+        </switch>
         <switch name="electric/output/radio-vhf">
             <default value="0"/>
             <test logic="AND" value="electric/sources/output-dc">
@@ -175,16 +181,10 @@
                 electric/switches/radio-hf == 1
             </test>
         </switch>
-        <switch name="electric/output/ekran">
+        <switch name="electric/output/iff">
             <default value="0"/>
-            <test logic="AND" value="electric/sources/output-dc">
-                electric/switches/ekran == 1
-            </test>
-        </switch>
-        <switch name="electric/output/ap">
-            <default value="0"/>
-            <test logic="AND" value="electric/sources/output-dc">
-                electric/switches/ap == 1
+            <test logic="AND" value="electric/sources/output-ac">
+                electric/switches/iff == 1
             </test>
         </switch>
         <switch name="electric/output/instruments">
@@ -199,10 +199,10 @@
                 electric/switches/weapons == 1
             </test>
         </switch>
-        <switch name="electric/output/gunsight">
+        <switch name="electric/output/ap">
             <default value="0"/>
-            <test logic="AND" value="electric/sources/output-ac">
-                electric/switches/gunsight == 1
+            <test logic="AND" value="electric/sources/output-dc">
+                electric/switches/ap == 1
             </test>
         </switch>
         <switch name="electric/output/starterunit">

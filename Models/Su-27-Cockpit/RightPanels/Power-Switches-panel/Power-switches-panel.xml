@@ -26,10 +26,10 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/CockpitParts/Switches/switch1.ac</path>
+		<path>IFF.xml</path>
 		<offsets>
 			<x-m>0.076</x-m>
-			<y-m>0.028</y-m>
+			<y-m>0.026</y-m>
 			<z-m>0.002</z-m>
 		</offsets>
 	</model>

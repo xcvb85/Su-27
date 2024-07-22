@@ -77,7 +77,7 @@
 			<y-m> 0.520</y-m>
 			<z-m> 0.795</z-m>
 			<roll-deg>50</roll-deg>
-			<pitch-deg>5</pitch-deg>
+			<pitch-deg>4</pitch-deg>
 			<heading-deg>-3</heading-deg>
 		</offsets>
 	</model>
