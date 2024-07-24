@@ -174,19 +174,21 @@ var Device = {
 		me.UpdateMenu();
 	},
 	ActivatePage: func(page, softkey) {
-		me.Menus[me.SkFrameMenu].ResetDecoration();
-		me.SkFrameMenu = me.ActiveMenu;
-		me.Menus[me.SkFrameMenu].SetDecoration(softkey);
-		me.ActivePage = page;
+		if(page < size(me.Pages)) {
+			me.Menus[me.SkFrameMenu].ResetDecoration();
+			me.SkFrameMenu = me.ActiveMenu;
+			me.Menus[me.SkFrameMenu].SetDecoration(softkey);
+			me.ActivePage = page;
 
-		me.UpdateMenu();
+			me.UpdateMenu();
 
-		for(me.i=0; me.i < size(me.Pages); me.i+=1) {
-			if(me.i == page) {
-				me.Pages[me.i].show();
-			}
-			else {
-				me.Pages[me.i].hide();
+			for(me.i=0; me.i < size(me.Pages); me.i+=1) {
+				if(me.i == page) {
+					me.Pages[me.i].show();
+				}
+				else {
+					me.Pages[me.i].hide();
+				}
 			}
 		}
 	},

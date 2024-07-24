@@ -22,9 +22,10 @@
 			<file>Aircraft/Su-27/Nasal/MFD/maps/loader.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Framework.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/pfd.nas</file>
-			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/to.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/map.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/rwr.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/wpn.nas</file>
+			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/hud.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/softkeys.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM/MFD.nas</file>
 			<file>Aircraft/Su-27/Nasal/MFD/Su-27SM-Small/pfd.nas</file>

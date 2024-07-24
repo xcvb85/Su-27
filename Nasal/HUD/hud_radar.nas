@@ -1,5 +1,5 @@
 var hud_radar = {
-	new: func(canvasGroup, instance)
+	new: func(canvasGroup)
 	{
 		var m = { parents: [hud_radar] };
 		m.group = canvasGroup;

@@ -2,7 +2,7 @@ var canvas_rwr = {
 	new: func(canvasGroup)
 	{
 		var m = { parents: [canvas_rwr] };
-		m.map = canvasGroup.createChild('map');
+		m.map = canvasGroup.createChild('group');
 
 		var font_mapper = func(family, weight)
 		{
