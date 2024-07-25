@@ -26,10 +26,10 @@ var cannon = stations.SubModelWeapon.new("30mm Cannon", 0.254, 510, [5], [4], pr
 cannon.typeShort = "GUN";
 cannon.brevity = "Guns guns";
 
-var s5l = stations.SubModelWeapon.new("B-8M1", 8, 32, [14], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
+var s5l = stations.SubModelWeapon.new("B-8M1", 8, 32, [6], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
 s5l.typeShort = "S-5";
 s5l.brevity = "Rockets away";
-var s5r = stations.SubModelWeapon.new("B-8M1", 8, 32, [15], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
+var s5r = stations.SubModelWeapon.new("B-8M1", 8, 32, [7], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
 s5r.typeShort = "S-5";
 s5r.brevity = "Rockets away";
 
@@ -107,7 +107,7 @@ if(variant <= 3) {
     pylonI = stations.InternalStation.new("Internal gun mount",  10, [pylonSets.mm30], props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[10]", 1));
 
     pylons = [pylon01, pylon02, pylon03, pylon04, pylon05, pylon06, pylon07, pylon08, pylon09, pylon10, pylonI];
-    fcs = fc.FireControl.new(pylons, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], ["30mm Cannon", "R-73", "R-77", "R-27T1", "R-27R1", "Kh-29T", "Kh-31P", "B-8M1"]);
+    fcs = fc.FireControl.new(pylons, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], ["30mm Cannon", "R-73", "R-77", "R-27T1", "R-27R1", "Kh-29T", "Kh-31P", "B-8M1"]);
 }
 else {
     # Su-35S has 12 pylons
@@ -139,7 +139,7 @@ else {
     pylonI = stations.InternalStation.new("Internal gun mount",  12, [pylonSets.mm30], props.globals.getNode("fdm/jsbsim/inertia/pointmass-weight-lbs[12]", 1));
 
     pylons = [pylon01, pylon02, pylon03, pylon04, pylon05, pylon06, pylon07, pylon08, pylon09, pylon10, pylon11, pylon12, pylonI];
-    fcs = fc.FireControl.new(pylons, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], ["30mm Cannon", "R-73", "R-77", "R-27T1", "R-27R1", "Kh-29T", "Kh-31P", "B-8M1"]);
+    fcs = fc.FireControl.new(pylons, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], ["30mm Cannon", "R-73", "R-77", "R-27T1", "R-27R1", "Kh-29T", "Kh-31P", "B-8M1"]);
 }
 
 var selectedWeapon = {};

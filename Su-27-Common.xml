@@ -10,6 +10,10 @@
 		<instrumentation>
 			<path>Systems/instrumentation.xml</path>
 		</instrumentation>
+		<submodels>
+			<serviceable type="bool">true</serviceable>
+			<path>Aircraft/Su-27/Systems/submodels.xml</path>
+		</submodels>
 	</sim>
 	<instrumentation>
 		<marker-beacon>
