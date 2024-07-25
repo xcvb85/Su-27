@@ -674,9 +674,9 @@
 		<name>B-8M1 1</name>
 		<path>Aircraft/Su-27/Models/Stores/B-8M1/B-8M1L.xml</path>
 		<offsets>
-			<x-m>14.356</x-m>
+			<x-m>14.000</x-m>
 			<y-m>-4.849</y-m>
-			<z-m>-0.188</z-m>
+			<z-m>-0.400</z-m>
 		</offsets>
 	</model>
 	<animation>
@@ -699,9 +699,9 @@
 		<name>B-8M1 2</name>
 		<path>Aircraft/Su-27/Models/Stores/B-8M1/B-8M1R.xml</path>
 		<offsets>
-			<x-m>14.356</x-m>
-			<y-m>4.849</y-m>
-			<z-m>-0.188</z-m>
+			<x-m>14.000</x-m>
+			<y-m> 4.849</y-m>
+			<z-m>-0.400</z-m>
 		</offsets>
 	</model>
 	<animation>

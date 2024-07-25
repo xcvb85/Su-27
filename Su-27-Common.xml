@@ -14,6 +14,7 @@
 			<serviceable type="bool">true</serviceable>
 			<path>Aircraft/Su-27/Systems/submodels.xml</path>
 		</submodels>
+		<menubar include="gui/menubar.xml"/>
 	</sim>
 	<instrumentation>
 		<marker-beacon>

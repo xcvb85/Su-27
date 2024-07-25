@@ -26,10 +26,10 @@ var cannon = stations.SubModelWeapon.new("30mm Cannon", 0.254, 510, [5], [4], pr
 cannon.typeShort = "GUN";
 cannon.brevity = "Guns guns";
 
-var s5l = stations.SubModelWeapon.new("B-8M1", 8, 32, [6], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
+var s5l = stations.SubModelWeapon.new("B-8M1", 12, 20, [6], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
 s5l.typeShort = "S-5";
 s5l.brevity = "Rockets away";
-var s5r = stations.SubModelWeapon.new("B-8M1", 8, 32, [7], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
+var s5r = stations.SubModelWeapon.new("B-8M1", 12, 20, [7], [], props.globals.getNode("fdm/jsbsim/fcs/s5trigger",1), 1, func{return 1;}, 1);
 s5r.typeShort = "S-5";
 s5r.brevity = "Rockets away";
 
