@@ -11,6 +11,210 @@
 		</offsets>
 	</model>
 
+	<!-- R-27R1 -->
+	<model>
+		<name>R-27R1 Missile 1</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27R1/R-27R1.ac</path>
+		<offsets>
+			<x-m>14.356</x-m>
+			<y-m>-4.849</y-m>
+			<z-m>-0.188</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27R1 Missile 1</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-2-type</property>
+					<value>R-27R1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-2-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+	<model>
+		<name>R-27R1 Missile 2</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27R1/R-27R1.ac</path>
+		<offsets>
+			<x-m>13.700</x-m>
+			<y-m>-3.400</y-m>
+			<z-m>-0.188</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27R1 Missile 2</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-10-type</property>
+					<value>R-27R1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-10-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+	<model>
+		<name>R-27R1 Missile 3</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27R1/R-27R1.ac</path>
+		<offsets>
+			<x-m>13.800</x-m>
+			<y-m>-1.220</y-m>
+			<z-m>-1.300</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27R1 Missile 3</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-8-type</property>
+					<value>R-27R1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-8-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+	<model>
+		<name>R-27R1 Missile 6</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27R1/R-27R1.ac</path>
+		<offsets>
+			<x-m>13.800</x-m>
+			<y-m> 1.220</y-m>
+			<z-m>-1.300</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27R1 Missile 6</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-9-type</property>
+					<value>R-27R1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-9-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+	<model>
+		<name>R-27R1 Missile 7</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27R1/R-27R1.ac</path>
+		<offsets>
+			<x-m>13.700</x-m>
+			<y-m>3.400</y-m>
+			<z-m>-0.188</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27R1 Missile 7</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-11-type</property>
+					<value>R-27R1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-11-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+	<model>
+		<name>R-27R1 Missile 8</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27R1/R-27R1.ac</path>
+		<offsets>
+			<x-m>14.356</x-m>
+			<y-m>4.849</y-m>
+			<z-m>-0.188</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27R1 Missile 8</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-3-type</property>
+					<value>R-27R1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-3-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+
+	<!-- R-27T1 -->
+	<model>
+		<name>R-27T1 Missile 1</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27T1/R-27T1.ac</path>
+		<offsets>
+			<x-m>14.356</x-m>
+			<y-m>-4.849</y-m>
+			<z-m>-0.188</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27T1 Missile 1</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-2-type</property>
+					<value>R-27T1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-2-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+	<model>
+		<name>R-27T1 Missile 2</name>
+		<path>Aircraft/Su-27/Models/Stores/R-27T1/R-27T1.ac</path>
+		<offsets>
+			<x-m>14.356</x-m>
+			<y-m> 4.849</y-m>
+			<z-m>-0.188</z-m>
+		</offsets>
+	</model>
+	<animation>
+		<object-name>R-27T1 Missile 2</object-name>
+		<type>select</type>
+		<condition>
+			<and>
+				<equals>
+					<property>payload/armament/station/id-3-type</property>
+					<value>R-27T1</value>
+				</equals>
+				<equals>
+					<property>payload/armament/station/id-3-count</property>
+					<value>1</value>
+				</equals>
+			</and>
+		</condition>
+	</animation>
+
 	<!-- R-73 -->
 	<model>
 		<name>R-73 Missile 1</name>
@@ -244,7 +448,7 @@
 		<path>Aircraft/Su-27/Models/Stores/R-77/R-77.ac</path>
 		<offsets>
 			<x-m>13.800</x-m>
-			<y-m>-1.300</y-m>
+			<y-m>-1.220</y-m>
 			<z-m>-1.300</z-m>
 		</offsets>
 	</model>
@@ -269,7 +473,7 @@
 		<path>Aircraft/Su-27/Models/Stores/R-77/R-77.ac</path>
 		<offsets>
 			<x-m>13.800</x-m>
-			<y-m>1.300</y-m>
+			<y-m> 1.220</y-m>
 			<z-m>-1.300</z-m>
 		</offsets>
 	</model>
@@ -421,7 +625,7 @@
 		<path>Aircraft/Su-27/Models/Stores/Kh-29T/Kh-29T.ac</path>
 		<offsets>
 			<x-m>13.800</x-m>
-			<y-m>-1.300</y-m>
+			<y-m>-1.220</y-m>
 			<z-m>-1.300</z-m>
 		</offsets>
 	</model>
@@ -446,7 +650,7 @@
 		<path>Aircraft/Su-27/Models/Stores/Kh-29T/Kh-29T.ac</path>
 		<offsets>
 			<x-m>13.800</x-m>
-			<y-m>1.300</y-m>
+			<y-m> 1.220</y-m>
 			<z-m>-1.300</z-m>
 		</offsets>
 	</model>
@@ -573,7 +777,7 @@
 		<path>Aircraft/Su-27/Models/Stores/Kh-31P/Kh-31P.ac</path>
 		<offsets>
 			<x-m>13.800</x-m>
-			<y-m>-1.300</y-m>
+			<y-m>-1.220</y-m>
 			<z-m>-1.300</z-m>
 		</offsets>
 	</model>
@@ -598,7 +802,7 @@
 		<path>Aircraft/Su-27/Models/Stores/Kh-31P/Kh-31P.ac</path>
 		<offsets>
 			<x-m>13.800</x-m>
-			<y-m>1.300</y-m>
+			<y-m> 1.220</y-m>
 			<z-m>-1.300</z-m>
 		</offsets>
 	</model>
