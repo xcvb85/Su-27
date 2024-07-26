@@ -1,11 +1,10 @@
 var HUDInstance = {};
 
 var HUD = {
-    new: func(group, instance) {
+    new: func(group) {
         var m = {parents:[HUD], Pages:{}};
-        m.Instance = instance;
 
-        m.Pages[0] = hud_radar.new(group.createChild('group'), instance);
+        m.Pages[0] = hud_radar.new(group.createChild('group'));
         m.Index = 0;
 
         m.ActivatePage(0);
@@ -47,12 +46,12 @@ var hudListener = setlistener("sim/signals/fdm-initialized", func () {
     var hudCanvas = canvas.new({
         "name": "HUD_Screen",
         "size": [1024, 1024],
-        "view": [256, 256],
+        "view": [512, 512],
         "mipmapping": 1
     });
     hudCanvas.addPlacement({"node": "HUD_Screen"});
     hudCanvas.set("additive-blend", 1);
     hudCanvas.setColorBackground(0, 0, 0, 0);
-    HUDInstance = HUD.new(hudCanvas.createGroup(), 0);
+    HUDInstance = HUD.new(hudCanvas.createGroup());
     removelistener(hudListener);
 });

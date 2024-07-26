@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    <path>b-8m1.ac</path>
+    
+    <animation>
+        <object-name>s-8.020</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>19</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.019</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>18</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.018</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>17</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.017</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>16</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.016</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>15</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.015</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>14</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.014</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>13</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.013</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>12</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.012</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>11</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.011</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>10</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.010</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>9</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.009</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>8</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.008</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>7</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.007</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>6</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.006</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>5</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.005</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>4</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.004</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>3</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.003</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>2</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.002</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>1</value>
+            </greater-than>
+        </condition>
+    </animation>
+    
+    <animation>
+        <object-name>s-8.001</object-name>
+        <type>select</type>
+        <condition>
+            <greater-than>
+                <property>ai/submodels/submodel[7]/count</property>
+                <value>0</value>
+            </greater-than>
+        </condition>
+    </animation>
+</PropertyList>

@@ -8,9 +8,10 @@ var mfd = {
 
 		# create pages
 		append(m.Pages, canvas_pfd.new(group.createChild('group')));
-		append(m.Pages, canvas_to.new(group.createChild('group')));
+		append(m.Pages, canvas_map.new(group.createChild('group')));
 		append(m.Pages, canvas_rwr.new(group.createChild('group')));
 		append(m.Pages, canvas_wpn.new(group.createChild('group')));
+		append(m.Pages, canvas_hud.new(group.createChild('group')));
 
 		m.SkInstance = canvas_softkeys.new(group.createChild('group'));
 

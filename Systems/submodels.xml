@@ -9,6 +9,8 @@
      3 ~ chaff right
      4 ~ GSh-301 tracer
      5 ~ GSh-301 bullet
+     6 ~ S-5 launcher
+     7 ~ S-5 launcher
     -->
     <!-- 0 -->
     <submodel>
@@ -147,5 +149,55 @@
         <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
         <impact>true</impact>
         <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
+    </submodel>
+    <!-- 6 -->
+    <submodel>
+        <name>S-8L</name>
+        <model>Aircraft/Su-27/Models/Stores/B-8M1/s-8-sub.xml</model>
+        <trigger>fdm/jsbsim/fcs/s5trigger</trigger>
+        <speed>1200.0</speed>
+        <repeat>false</repeat>
+        <delay>0.0</delay>
+        <count>0</count>
+        <offsets>
+            <x-m>-1.368</x-m>
+            <y-m>-1.560</y-m>
+            <z-m>-0.104</z-m>
+        </offsets>
+        <life>7.0</life><!-- since it has no drag, its lifetime should be as short as possible needed to hit stuff -->
+        <wind>true</wind>
+        <weight>8</weight>
+        <cd>0.0</cd><!-- since it has engine and submodels dont support that, its drag is set to zero -->
+        <eda>0.00136354</eda>
+        <collision>true</collision>
+        <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
+        <impact>true</impact>
+        <impact-reports>ai/models/model-impact</impact-reports>
+        <submodel-path>Aircraft/Su-27/Models/Stores/B-8M1/s-8-explosion-sub.xml</submodel-path>
+    </submodel>
+    <!-- 7 -->
+    <submodel>
+        <name>S-8R</name>
+        <model>Aircraft/Su-27/Models/Stores/B-8M1/s-8-sub.xml</model>
+        <trigger>fdm/jsbsim/fcs/s5trigger</trigger>
+        <speed>1200.0</speed>
+        <repeat>false</repeat>
+        <delay>0.0</delay>
+        <count>0</count>
+        <offsets>
+            <x-m>-1.368</x-m>
+            <y-m> 1.560</y-m>
+            <z-m>-0.104</z-m>
+        </offsets>
+        <life>7.0</life><!-- since it has no drag, its lifetime should be as short as possible needed to hit stuff -->
+        <wind>true</wind>
+        <weight>8</weight>
+        <cd>0.0</cd><!-- since it has engine and submodels dont support that, its drag is set to zero -->
+        <eda>0.00136354</eda>
+        <collision>true</collision>
+        <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
+        <impact>true</impact>
+        <impact-reports>ai/models/model-impact</impact-reports>
+        <submodel-path>Aircraft/Su-27/Models/Stores/B-8M1/s-8-explosion-sub.xml</submodel-path>
     </submodel>
 </PropertyList>

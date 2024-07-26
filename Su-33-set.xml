@@ -12,7 +12,6 @@
 			<cockpit type="int">2</cockpit>
 			<model type="int">4</model>
 		</rating>
-		<menubar include="gui/Menubar-Su-33.xml"/>
 		<model>
 			<path>Aircraft/Su-27/Models/Su-33.xml</path>
 		</model>
