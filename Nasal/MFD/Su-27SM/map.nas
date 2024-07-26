@@ -4,10 +4,10 @@ var ndlayers = [{name:'APT',style:{scale_factor:0.8,label_font_color:[0,1,0],col
 		{name:'NDB_su',style:{scale_factor:0.8,color:[1,0,0]}},
 		{name:'WPT_su',style:{scale_factor:0.8,color:[0,1,0]}}];
 
-var canvas_to = {
+var canvas_map = {
 	new: func(canvasGroup)
 	{
-		var m = { parents: [canvas_to] };
+		var m = { parents: [canvas_map] };
 		m.map = canvasGroup.createChild('map');
 
 		var font_mapper = func(family, weight)
@@ -16,7 +16,7 @@ var canvas_to = {
 				return "LiberationFonts/LiberationSans-Regular.ttf";
 			}
 		};
-		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM/to.svg", {'font-mapper': font_mapper});
+		canvas.parsesvg(canvasGroup, "Aircraft/Su-27/Nasal/MFD/Su-27SM/map.svg", {'font-mapper': font_mapper});
 
 		var svg_keys = ["compass1", "compass2",
 						"lb0", "lb3", "lb6", "lb9",
