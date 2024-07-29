@@ -4,29 +4,29 @@
 		<name>mfd1</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd1.xml</path>
 		<offsets>
-			<x-m> 0.030</x-m>
+			<x-m> 0.010</x-m>
 			<y-m>-0.205</y-m>
-			<z-m> 0.090</z-m>
-			<heading-deg>3</heading-deg>
+			<z-m> 0.080</z-m>
+			<heading-deg>5</heading-deg>
 		</offsets>
 	</model>
 	<model>
 		<name>mfd2</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd3.ac</path>
 		<offsets>
-			<x-m> 0.010</x-m>
+			<x-m>-0.010</x-m>
 			<y-m> 0.000</y-m>
-			<z-m> 0.090</z-m>
+			<z-m> 0.080</z-m>
 		</offsets>
 	</model>
 	<model>
 		<name>mfd2</name>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/MFD/mfd2.xml</path>
 		<offsets>
-			<x-m> 0.030</x-m>
+			<x-m> 0.010</x-m>
 			<y-m> 0.205</y-m>
-			<z-m> 0.090</z-m>
-			<heading-deg>-3</heading-deg>
+			<z-m> 0.080</z-m>
+			<heading-deg>-5</heading-deg>
 		</offsets>
 	</model>
 	<model>
@@ -78,10 +78,10 @@
 		</offsets>
 	</model>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Chronometer/Chronometer.xml</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/RPM/RPM.xml</path>
 		<offsets>
 			<x-m> 0.005</x-m>
-			<y-m> 0.040</y-m>
+			<y-m> 0.090</y-m>
 			<z-m>-0.080</z-m>
 		</offsets>
 	</model>
@@ -89,7 +89,7 @@
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-left.xml</path>
 		<offsets>
 			<x-m> 0.000</x-m>
-			<y-m> 0.160</y-m>
+			<y-m> 0.170</y-m>
 			<z-m>-0.080</z-m>
 		</offsets>
 	</model>
@@ -97,16 +97,8 @@
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/TurbineTempIndicator/Turbine-Temp-indic-right.xml</path>
 		<offsets>
 			<x-m> 0.000</x-m>
-			<y-m> 0.220</y-m>
+			<y-m> 0.235</y-m>
 			<z-m>-0.080</z-m>
-		</offsets>
-	</model>
-	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/RPM/RPM.xml</path>
-		<offsets>
-			<x-m> 0.005</x-m>
-			<y-m> 0.290</y-m>
-			<z-m>-0.090</z-m>
 		</offsets>
 	</model>
 	<model>
