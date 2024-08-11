@@ -5,14 +5,14 @@
    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
  <metrics>
-   <wingarea  unit="M2">   62.0 </wingarea>
-   <wingspan  unit="M" >   14.7 </wingspan>
-   <wing_incidence>         2.0 </wing_incidence>
-   <chord     unit="M" >    4.2 </chord>
-   <htailarea unit="FT2"> 133.49 </htailarea>
-   <htailarm  unit="M" >   18.0 </htailarm>
-   <vtailarea unit="FT2"> 120.14 </vtailarea>
-   <vtailarm  unit="M" >   17.5 </vtailarm>
+   <wingarea  unit="M2">62.0</wingarea>
+   <wingspan  unit="M" >14.7</wingspan>
+   <wing_incidence>      2.0</wing_incidence>
+   <chord     unit="M" > 4.2</chord>
+   <htailarea unit="M2">12.4</htailarea>
+   <htailarm  unit="M" >18.0</htailarm>
+   <vtailarea unit="M2">11.2</vtailarea>
+   <vtailarm  unit="M" >17.5</vtailarm>
    <location name="AERORP" unit="M">
      <x> 13.3 </x>
      <y>  0.0 </y>
@@ -31,20 +31,18 @@
  </metrics>
 
  <mass_balance>
-   <ixx unit="SLUG*FT2">   54859 </ixx>
-   <iyy unit="SLUG*FT2">  167365 </iyy>
-   <izz unit="SLUG*FT2">  169937 </izz>
-   <emptywt unit="KG" >   16380 </emptywt>
+   <ixx unit="SLUG*FT2">  54859</ixx>
+   <iyy unit="SLUG*FT2"> 167365</iyy>
+   <izz unit="SLUG*FT2"> 169937</izz>
+   <emptywt unit="KG" >   16380</emptywt>
    <location name="CG" unit="M">
      <x> 13.2 </x>
      <y>  0.0 </y>
      <z> -0.5 </z>
    </location>
-  
  </mass_balance>
 
  <ground_reactions>
-
   <contact type="BOGEY" name="NOSE_GEAR">
    <location unit="M">
      <x>  7.80 </x>
@@ -179,7 +177,6 @@
  </ground_reactions>
 
  <propulsion>
-
    <engine file="Saturn-AL-31">
     <feed>0</feed>
     <feed>1</feed>
@@ -187,10 +184,10 @@
     <feed>3</feed>
     <feed>4</feed>
     <thruster file="direct">
-     <location unit="IN">
-       <x> 802.25 </x>
-       <y> -20.00 </y>
-       <z>   0.00 </z>
+     <location unit="M">
+       <x> 20.38</x>
+       <y> -0.51</y>
+       <z>  0.00</z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
@@ -207,10 +204,10 @@
     <feed>3</feed>
     <feed>4</feed>
     <thruster file="direct">
-     <location unit="IN">
-       <x> 802.25 </x>
-       <y>  20.00 </y>
-       <z>   0.00 </z>
+     <location unit="M">
+       <x> 20.38</x>
+       <y>  0.51</y>
+       <z>  0.00</z>
      </location>
      <orient unit="DEG">
        <pitch> 0.00 </pitch>
@@ -221,60 +218,54 @@
   </engine>
 
   <tank type="FUEL" number="0">	<!-- Tank1 fuselage afterproue -->
-     <location unit="IN">
-       <x> 260.35 </x>
-       <y>   0.00 </y>
-       <z> -21.56 </z>
+     <location unit="M">
+       <x> 6.62</x>
+       <y> 0.00</y>
+       <z>-0.55</z>
      </location>
-     <capacity unit="LBS"> 7010.70 </capacity>
-     <contents unit="LBS"> 3505.35 </contents>
-
+     <capacity unit="KG">3180</capacity>
+     <contents unit="KG">1500</contents>
   </tank>
 
   <tank type="FUEL" number="1">	<!-- Tank2 Main center fuselage  -->
-     <location unit="IN">
-       <x> 517.35 </x>
-       <y>   0.00 </y>
-       <z> -21.56 </z>
+     <location unit="M">
+       <x> 13.14</x>
+       <y>  0.00</y>
+       <z> -0.55</z>
      </location>
-     <capacity unit="LBS"> 9171.23 </capacity>
-     <contents unit="LBS"> 4585.61 </contents>
-
+     <capacity unit="KG">4160</capacity>
+     <contents unit="KG">2000</contents>
   </tank>
 
   <tank type="FUEL" number="2">	<!-- Tank3L L.wing   -->
-     <location unit="IN">
-       <x> 517.35 </x>
-       <y>  -137  </y>
-       <z> -21.56 </z>
+     <location unit="M">
+       <x> 13.14</x>
+       <y> -3.50</y>
+       <z> -0.55</z>
      </location>
-     <capacity unit="LBS"> 1168.45 </capacity>
-     <contents unit="LBS"> 584.22 </contents>
-     
+     <capacity unit="KG">530</capacity>
+     <contents unit="KG">300</contents>
   </tank>
   
   <tank type="FUEL" number="3">	<!-- Tank3R R.wing   -->
-     <location unit="IN">
-       <x> 517.35 </x>
-       <y>   137  </y>
-       <z> -21.56 </z>
+     <location unit="M">
+       <x> 13.14</x>
+       <y>  3.50</y>
+       <z> -0.55</z>
      </location>
-     <capacity unit="LBS"> 1168.45 </capacity>
-     <contents unit="LBS"> 584.22 </contents>
-
+     <capacity unit="KG">530</capacity>
+     <contents unit="KG">300</contents>
   </tank>
   
   <tank type="FUEL" number="4">	<!-- Tank4 rear fuselage   -->
-     <location unit="IN">
-       <x> 669.29 </x>
-       <y>  0.00  </y>
-       <z> -21.56 </z>
+     <location unit="M">
+       <x> 17.00</x>
+       <y>  0.00</y>
+       <z> -0.55</z>
      </location>
-     <capacity unit="LBS"> 2204.62 </capacity>
-     <contents unit="LBS"> 1102.31 </contents>
-
+     <capacity unit="KG">1000</capacity>
+     <contents unit="KG">500</contents>
   </tank>
-
  </propulsion>
 
     <system file="jsb-electrical"/>
