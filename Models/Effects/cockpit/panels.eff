@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
-  <name>Effects/instruments</name>
+  <name>Effects/panels</name>
   <parameters>
     <emissive-color type="vec3d"> 1.0 0.2 0.1 </emissive-color>
     <emissive-factor type="float">1.0</emissive-factor>
-    <emissive-offset type="float">0.05</emissive-offset>
+    <emissive-offset type="float">0.0</emissive-offset>
   </parameters>
 
   <technique n="109">

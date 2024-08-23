@@ -2,7 +2,7 @@
 <PropertyList>
 	<path>Su-27-Cockpit.ac</path>
 	<model>
-		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SK-Panels.ac</path>
+		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SK-Panels.xml</path>
 	</model>
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
