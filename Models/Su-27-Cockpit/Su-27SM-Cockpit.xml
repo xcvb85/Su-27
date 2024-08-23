@@ -3,22 +3,28 @@
 	<path>Su-27-Cockpit.ac</path>
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Su-27SM-Panels.ac</path>
+		<offsets>
+			<x-m>4.635</x-m>
+			<y-m>0.000</y-m>
+			<z-m>0.930</z-m>
+			<pitch-deg>-20</pitch-deg>
+		</offsets>
 	</model>
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/Compass/Compass.xml</path>
 		<offsets>
-			<x-m>4.60</x-m>
-			<y-m>0.28</y-m>
-			<z-m>1.41</z-m>
+			<x-m>4.600</x-m>
+			<y-m>0.280</y-m>
+			<z-m>1.410</z-m>
 			<pitch-deg>-5</pitch-deg>
 		</offsets>
 	</model>
 	<model>
 		<path>Aircraft/Su-27/Models/Su-27-Cockpit/Instruments/HUD/Su-27SM-HUD.xml</path>
 		<offsets>
-			<x-m>4.70</x-m>
-			<y-m>0.01</y-m>
-			<z-m>1.12</z-m>
+			<x-m>4.700</x-m>
+			<y-m>0.010</y-m>
+			<z-m>1.120</z-m>
 			<pitch-deg>-18</pitch-deg>
 		</offsets>
 	</model>
