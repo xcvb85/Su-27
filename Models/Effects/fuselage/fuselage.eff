@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
- <name>Aircraft/Su-27/Models/Effects/fuselage</name>
+ <name>fuselage</name>
  <inherits-from>Aircraft/Su-27/Models/Effects/model-pbr-default</inherits-from>
   <parameters>
     <!-- Base Color -->
@@ -14,7 +14,7 @@
     </texture>
     <!-- ORM Texture (Occlusion R, Roughness G and Metallic B) -->
     <texture n="2">
-      <image>Aircraft/Su-27/Models/Effects/orm.png</image>
+      <image>Aircraft/Su-27/Models/Effects/fuselage/orm.png</image>
       <type>2d</type>
       <filter>linear-mipmap-linear</filter>
       <wrap-s>clamp</wrap-s>

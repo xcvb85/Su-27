@@ -5,6 +5,13 @@
         <inherits-from>Effects/model-transparent</inherits-from>
         <object-name>glass</object-name>
     </effect>
+    <effect>
+        <inherits-from>Aircraft/Su-27/Models/Effects/cockpit/instruments</inherits-from>
+        <object-name>face</object-name>
+        <object-name>altimeterNeedle100</object-name>
+        <object-name>altimeterNeedle1k</object-name>
+        <object-name>pressureGuage</object-name>
+    </effect>
 
     <animation>
         <type>rotate</type>

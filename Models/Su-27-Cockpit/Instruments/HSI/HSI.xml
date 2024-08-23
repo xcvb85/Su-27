@@ -7,6 +7,16 @@
 		<inherits-from>Effects/model-transparent</inherits-from>
 		<object-name>Glass</object-name>
 	</effect>
+	<effect>
+		<inherits-from>Aircraft/Su-27/Models/Effects/cockpit/instruments</inherits-from>
+		<object-name>UpFace</object-name>
+		<object-name>ScaleDCGRM</object-name>
+		<object-name>Compass</object-name>
+		<object-name>Course</object-name>
+		<object-name>RadioCompass</object-name>
+		<object-name>Glideslope</object-name>
+		<object-name>Localizer</object-name>
+	</effect>
 	<animation>
 		<type>rotate</type>
 		<object-name>Compass</object-name>

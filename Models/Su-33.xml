@@ -7,8 +7,7 @@
 		<object-name>GLS_Canopy_Rear</object-name>
 	</effect>
 	<effect>
-		<name>Aircraft/Su-27/Models/Effects/fabric</name>
-		<inherits-from>Aircraft/Su-27/Models/Effects/fabric</inherits-from>
+		<inherits-from>Aircraft/Su-27/Models/Effects/cockpit/fabric</inherits-from>
 		<object-name>HULL_Hull_Nose.002</object-name>
 	</effect>
 	<model>

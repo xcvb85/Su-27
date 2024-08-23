@@ -10,8 +10,7 @@
     <object-name>canopy2.glass</object-name>
   </effect>
   <effect>
-    <name>Aircraft/Su-27/Models/Effects/fuselage</name>
-    <inherits-from>Aircraft/Su-27/Models/Effects/fuselage</inherits-from>
+    <inherits-from>Aircraft/Su-27/Models/Effects/fuselage/fuselage</inherits-from>
     <object-name>HULL_Speedbrake_Outer</object-name>
     <object-name>WNG_Left_Flaperon</object-name>
     <object-name>WNG_Right_Flaperon</object-name>
@@ -22,8 +21,7 @@
     <object-name>ELV_Elevon_Right</object-name>
   </effect>
   <effect>
-    <name>Aircraft/Su-27/Models/Effects/fabric</name>
-    <inherits-from>Aircraft/Su-27/Models/Effects/fabric</inherits-from>
+    <inherits-from>Aircraft/Su-27/Models/Effects/cockpit/fabric</inherits-from>
     <object-name>HULL_Hull_Upper.003</object-name>
   </effect>
   

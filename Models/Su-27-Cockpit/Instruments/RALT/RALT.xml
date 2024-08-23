@@ -9,7 +9,13 @@
     <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>glass</object-name>
   </effect>
-  
+  <effect>
+    <inherits-from>Aircraft/Su-27/Models/Effects/cockpit/instruments</inherits-from>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <object-name>index</object-name>
+  </effect>
+
   <!--Needles-->
   <animation>
     <type>rotate</type>
