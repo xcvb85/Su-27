@@ -1,35 +1,24 @@
-#version 330 core
+// -*- mode: C; -*-
+#version 120
 
-in VS_OUT {
-    float flogz;
-    vec2 texcoord;
-    vec3 vertex_normal;
-    vec3 view_vector;
-} fs_in;
+varying vec3 normal;
 
-uniform sampler2D color_tex;
+uniform sampler2D base_color_tex;
 
 uniform vec3 emissive_color;
 uniform float emissive_factor;
 uniform float emissive_offset;
 
-// gbuffer_pack.glsl
-void gbuffer_pack(vec3 normal, vec3 base_color, float metallic, float roughness,
-                  float occlusion, vec3 emissive, uint mat_id);
-// color.glsl
-vec3 eotf_inverse_sRGB(vec3 srgb);
-// normalmap.glsl
-vec3 perturb_normal(vec3 N, vec3 V, vec2 texcoord);
-// logarithmic_depth.glsl
-float logdepth_encode(float z);
-
 void main()
 {
-    vec3 texel = texture(color_tex, fs_in.texcoord).rgb;
-    vec3 color = eotf_inverse_sRGB(texel);
-    vec3 N = normalize(fs_in.vertex_normal);
-    vec3 emissive = 7.0 * emissive_factor * emissive_color * (color + vec3(emissive_offset));
+	vec3 color = texture2D(base_color_tex, gl_TexCoord[0].xy).rgb;
+	vec3 emissive = emissive_factor * emissive_color * (color + vec3(emissive_offset));
 
-    gbuffer_pack(N, color, 0.0, 1.0, 1.0, emissive, 3u);
-    gl_FragDepth = logdepth_encode(fs_in.flogz);
+	vec3 lightDir = normalize(gl_LightSource[0].position.xyz);
+	float NdotL = dot(normal, lightDir);
+
+	color *= NdotL;
+	color = max(color, emissive);
+
+	gl_FragColor = vec4(color, 1.0);
 }

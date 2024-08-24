@@ -2,10 +2,66 @@
 <PropertyList>
   <name>Effects/instruments</name>
   <parameters>
-    <emissive-color type="vec3d"> 1.0 0.2 0.1 </emissive-color>
+    <emissive-color type="vec3d"> 1.0 0.4 0.2 </emissive-color>
     <emissive-factor type="float">1.0</emissive-factor>
     <emissive-offset type="float">0.05</emissive-offset>
   </parameters>
+
+  <technique n="5">
+      <predicate>
+        <and>
+          <property>/sim/rendering/shaders/skydome</property>
+          <property>/sim/rendering/shaders/model</property>
+          <or>
+            <less-equal>
+              <value type="float">2.0</value>
+              <glversion/>
+            </less-equal>
+            <and>
+              <extension-supported>GL_ARB_shader_objects</extension-supported>
+              <extension-supported>GL_ARB_shading_language_100</extension-supported>
+              <extension-supported>GL_ARB_vertex_shader</extension-supported>
+              <extension-supported>GL_ARB_fragment_shader</extension-supported>
+            </and>
+          </or>
+        </and>
+      </predicate>
+    <pass>
+      <texture-unit>
+        <unit>0</unit>
+        <type><use>texture[0]/type</use></type>
+        <image><use>texture[0]/image</use></image>
+        <filter><use>texture[0]/filter</use></filter>
+        <mag-filter><use>texture[0]/mag-filter</use></mag-filter>
+        <wrap-s><use>texture[0]/wrap-s</use></wrap-s>
+        <wrap-t><use>texture[0]/wrap-t</use></wrap-t>
+      </texture-unit>
+      <program>
+        <vertex-shader>Aircraft/Su-27/Models/Effects/cockpit/model_emission.vert</vertex-shader>
+        <fragment-shader>Aircraft/Su-27/Models/Effects/cockpit/model_emission.frag</fragment-shader>
+      </program>
+      <uniform>
+        <name>base_color_tex</name>
+        <type>sampler-2d</type>
+        <value type="int">0</value>
+      </uniform>
+      <uniform>
+        <name>emissive_color</name>
+        <type>float-vec3</type>
+        <value><use>emissive-color</use></value>
+      </uniform>
+      <uniform>
+        <name>emissive_factor</name>
+        <type>float</type>
+        <value><use>emissive-factor</use></value>
+      </uniform>
+      <uniform>
+        <name>emissive_offset</name>
+        <type>float</type>
+        <value><use>emissive-offset</use></value>
+      </uniform>
+    </pass>
+  </technique>
 
   <technique n="109">
     <scheme>hdr-geometry</scheme>
@@ -35,7 +91,7 @@
       <program>
         <vertex-shader>Shaders/HDR/model_pbr.vert</vertex-shader>
         <vertex-shader>Shaders/HDR/logarithmic_depth.glsl</vertex-shader>
-        <fragment-shader>Aircraft/Su-27/Models/Effects/cockpit/model_emission.frag</fragment-shader>
+        <fragment-shader>Aircraft/Su-27/Models/Effects/cockpit/model_emission_hdr.frag</fragment-shader>
         <fragment-shader>Shaders/HDR/logarithmic_depth.glsl</fragment-shader>
         <fragment-shader>Shaders/HDR/gbuffer_pack.glsl</fragment-shader>
         <fragment-shader>Shaders/HDR/normal_encoding.glsl</fragment-shader>

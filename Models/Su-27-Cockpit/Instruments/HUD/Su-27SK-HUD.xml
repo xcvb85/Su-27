@@ -9,6 +9,10 @@
 		<inherits-from>Effects/model-transparent</inherits-from>
 		<object-name>glass</object-name>
 	</effect>
+	<effect>
+		<inherits-from>Aircraft/Su-27/Models/Effects/cockpit/panels</inherits-from>
+		<object-name>text</object-name>
+	</effect>
 	<animation>
 		<type>knob</type>
 		<object-name>knob</object-name>
