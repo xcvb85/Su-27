@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>mfd3.ac</path>
+	<effect>
+		<inherits-from>Aircraft/Su-27/Models/Effects/cockpit/mfd</inherits-from>
+		<object-name>mfd3_screen</object-name>
+	</effect>
+</PropertyList>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
 	<path>mfd2.ac</path>
+	<effect>
+		<inherits-from>Aircraft/Su-27/Models/Effects/cockpit/mfd</inherits-from>
+		<object-name>mfd2_screen</object-name>
+	</effect>
 
 	<!-- top -->
 	<animation>
